@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-subbuild/CMakeFiles/sfml-populate"
+		},
+		{
+			"file" : "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-subbuild/CMakeFiles/40b3f4bcb0ab9aa9ebb343e209a86a61/sfml-populate.rule"
+		},
+		{
+			"file" : "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-subbuild/CMakeFiles/1454c7a76e24f5baad71ce493bfd5c66/sfml-populate-complete.rule"
+		},
+		{
+			"file" : "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-subbuild/CMakeFiles/4353a2bd6204198d43f87807282eb759/sfml-populate-build.rule"
+		},
+		{
+			"file" : "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-subbuild/CMakeFiles/4353a2bd6204198d43f87807282eb759/sfml-populate-configure.rule"
+		},
+		{
+			"file" : "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-subbuild/CMakeFiles/4353a2bd6204198d43f87807282eb759/sfml-populate-download.rule"
+		},
+		{
+			"file" : "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-subbuild/CMakeFiles/4353a2bd6204198d43f87807282eb759/sfml-populate-install.rule"
+		},
+		{
+			"file" : "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-subbuild/CMakeFiles/4353a2bd6204198d43f87807282eb759/sfml-populate-mkdir.rule"
+		},
+		{
+			"file" : "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-subbuild/CMakeFiles/4353a2bd6204198d43f87807282eb759/sfml-populate-patch.rule"
+		},
+		{
+			"file" : "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-subbuild/CMakeFiles/4353a2bd6204198d43f87807282eb759/sfml-populate-test.rule"
+		},
+		{
+			"file" : "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-subbuild/CMakeFiles/4353a2bd6204198d43f87807282eb759/sfml-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"sfml-populate"
+		],
+		"name" : "sfml-populate"
+	}
+}

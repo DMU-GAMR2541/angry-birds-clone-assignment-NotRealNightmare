@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\0ed58a7a8aa54be7058ae160e6261abb\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{99CF4A29-0A80-3D47-8E5C-7B9FF4959537}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

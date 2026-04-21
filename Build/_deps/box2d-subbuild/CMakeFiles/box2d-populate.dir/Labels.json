@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/box2d-subbuild/CMakeFiles/box2d-populate"
+		},
+		{
+			"file" : "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/box2d-subbuild/CMakeFiles/4bd4516b443f29e65177fe456fe8d939/box2d-populate.rule"
+		},
+		{
+			"file" : "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/box2d-subbuild/CMakeFiles/0097921f1f38a01b20e570e05a433979/box2d-populate-complete.rule"
+		},
+		{
+			"file" : "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/box2d-subbuild/CMakeFiles/63333d49f918856aebe9da061001de74/box2d-populate-build.rule"
+		},
+		{
+			"file" : "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/box2d-subbuild/CMakeFiles/63333d49f918856aebe9da061001de74/box2d-populate-configure.rule"
+		},
+		{
+			"file" : "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/box2d-subbuild/CMakeFiles/63333d49f918856aebe9da061001de74/box2d-populate-download.rule"
+		},
+		{
+			"file" : "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/box2d-subbuild/CMakeFiles/63333d49f918856aebe9da061001de74/box2d-populate-install.rule"
+		},
+		{
+			"file" : "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/box2d-subbuild/CMakeFiles/63333d49f918856aebe9da061001de74/box2d-populate-mkdir.rule"
+		},
+		{
+			"file" : "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/box2d-subbuild/CMakeFiles/63333d49f918856aebe9da061001de74/box2d-populate-patch.rule"
+		},
+		{
+			"file" : "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/box2d-subbuild/CMakeFiles/63333d49f918856aebe9da061001de74/box2d-populate-test.rule"
+		},
+		{
+			"file" : "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/box2d-subbuild/CMakeFiles/63333d49f918856aebe9da061001de74/box2d-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"box2d-populate"
+		],
+		"name" : "box2d-populate"
+	}
+}
