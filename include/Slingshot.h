@@ -14,7 +14,7 @@ private:
     const int MAX_TENSION = 100;
 
 public:
-    Slingshot(int i_initialTension) : i_tension(i_initialTension), str_birdType("Red") {}
+    Slingshot(int i_initialTension, std::string str_birdtype) : i_tension(i_initialTension), str_birdType(str_birdtype) {}
 
     //Functions to test.
     void loadBird(std::string str_type) { str_birdType = str_type; }

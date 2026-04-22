@@ -58,8 +58,8 @@ protected:
     void SetUp() override {
         // Code here will be called immediately after the constructor (right
         // before each test).
-        slingshot = std::make_unique<Slingshot>(100); // All slingshot starts with 100 tension.
-
+        slingshot = std::make_unique<Slingshot>(100, "Red"); // All slingshot starts with 100 tension.
+        
     }
 
     void TearDown() override {
@@ -92,15 +92,17 @@ TEST(Enemy, SecondEnemy_test) {
 
 //First slingshotTest, not a fixture. no setup needed.
 TEST(Slingshot, FirstSlingshot_Test) {
-    Slingshot t(0);
+    Slingshot t(0, "Red");
     EXPECT_LT(t.getTension(), 100);
 }
 
-//BirdColour Test, not fixture, setup not needed
-TEST(Slingshot, Test_BirdColour) {
+//BirdColour Test, fixture, setup not needed
+TEST_F(SlingshotTest, Test_BirdColour) { 
+    slingshot->loadBird("Red");
     std::string str = "Red";
     const char* c = str.c_str();
-    EXPECT_STREQ(c, "Red");
+
+    EXPECT_EQ(slingshot->getBirdType(), c);
 }
 
 int main(int argc, char** argv) {
