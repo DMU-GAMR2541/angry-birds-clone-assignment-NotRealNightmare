@@ -9,6 +9,9 @@
     <ClInclude Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\include\Enemy.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\include\GameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\include\Slingshot.h">
       <Filter>Header Files</Filter>
     </ClInclude>

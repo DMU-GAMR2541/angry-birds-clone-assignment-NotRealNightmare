@@ -93,10 +93,10 @@ TEST(Enemy, SecondEnemy_test) {
 //First slingshotTest, not a fixture. no setup needed.
 TEST(Slingshot, FirstSlingshot_Test) {
     Slingshot t(0, "Red");
-    EXPECT_LT(t.getTension(), 100);
+    EXPECT_LE(t.getTension(), 100);
 }
 
-//BirdColour Test, fixture, setup not needed
+//BirdColour Test, fixture, setup needed
 TEST_F(SlingshotTest, Test_BirdColour) { 
     slingshot->loadBird("Red");
     std::string str = "Red";

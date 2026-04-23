@@ -333,6 +333,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\include\Enemy.h" />
+    <ClInclude Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\include\GameObject.h" />
     <ClInclude Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\include\Slingshot.h" />
     <ClCompile Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\test_src\RunTests.cpp" />
   </ItemGroup>
