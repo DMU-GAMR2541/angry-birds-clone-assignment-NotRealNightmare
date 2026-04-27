@@ -18,6 +18,9 @@
     <ClInclude Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\include\Slingshot.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\include\StaticObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\CMakeLists.txt" />

@@ -376,6 +376,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\include\Enemy.h" />
     <ClInclude Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\include\GameObject.h" />
     <ClInclude Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\include\Slingshot.h" />
+    <ClInclude Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\include\StaticObject.h" />
     <ClCompile Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\test_src\RunTests.cpp" />
   </ItemGroup>
   <ItemGroup />

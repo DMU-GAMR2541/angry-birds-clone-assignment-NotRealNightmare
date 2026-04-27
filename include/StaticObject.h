@@ -16,6 +16,8 @@ public:
 	StaticObject() = default;
 	~StaticObject() = default;
 
+	b2Body* getBody() { return body; }
+
 	void initStaticBody(b2World* worldRef, float x, float y, float halfWidth, float halfHeight) {
 		world = worldRef;
 		b2BodyDef bodyDef;
@@ -28,5 +30,5 @@ public:
 
 	}
 
-	virtual void render(sf::RenderWindow& window) = 0;
+	virtual void render(sf::RenderWindow& window) {};
 };
