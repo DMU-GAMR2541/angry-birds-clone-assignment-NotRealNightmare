@@ -2,37 +2,37 @@
 	"sources" : 
 	[
 		{
-			"file" : "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-subbuild/CMakeFiles/sfml-populate"
+			"file" : "D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-subbuild/CMakeFiles/sfml-populate"
 		},
 		{
-			"file" : "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-subbuild/CMakeFiles/40b3f4bcb0ab9aa9ebb343e209a86a61/sfml-populate.rule"
+			"file" : "D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-subbuild/CMakeFiles/fa96a957332252fcff611c6061f41d76/sfml-populate.rule"
 		},
 		{
-			"file" : "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-subbuild/CMakeFiles/1454c7a76e24f5baad71ce493bfd5c66/sfml-populate-complete.rule"
+			"file" : "D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-subbuild/CMakeFiles/a4d0b12f8e690c4c5b047566f5c4d7e4/sfml-populate-complete.rule"
 		},
 		{
-			"file" : "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-subbuild/CMakeFiles/4353a2bd6204198d43f87807282eb759/sfml-populate-build.rule"
+			"file" : "D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-subbuild/CMakeFiles/f319071c055db320408a0d0b3800b6ff/sfml-populate-build.rule"
 		},
 		{
-			"file" : "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-subbuild/CMakeFiles/4353a2bd6204198d43f87807282eb759/sfml-populate-configure.rule"
+			"file" : "D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-subbuild/CMakeFiles/f319071c055db320408a0d0b3800b6ff/sfml-populate-configure.rule"
 		},
 		{
-			"file" : "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-subbuild/CMakeFiles/4353a2bd6204198d43f87807282eb759/sfml-populate-download.rule"
+			"file" : "D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-subbuild/CMakeFiles/f319071c055db320408a0d0b3800b6ff/sfml-populate-download.rule"
 		},
 		{
-			"file" : "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-subbuild/CMakeFiles/4353a2bd6204198d43f87807282eb759/sfml-populate-install.rule"
+			"file" : "D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-subbuild/CMakeFiles/f319071c055db320408a0d0b3800b6ff/sfml-populate-install.rule"
 		},
 		{
-			"file" : "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-subbuild/CMakeFiles/4353a2bd6204198d43f87807282eb759/sfml-populate-mkdir.rule"
+			"file" : "D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-subbuild/CMakeFiles/f319071c055db320408a0d0b3800b6ff/sfml-populate-mkdir.rule"
 		},
 		{
-			"file" : "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-subbuild/CMakeFiles/4353a2bd6204198d43f87807282eb759/sfml-populate-patch.rule"
+			"file" : "D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-subbuild/CMakeFiles/f319071c055db320408a0d0b3800b6ff/sfml-populate-patch.rule"
 		},
 		{
-			"file" : "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-subbuild/CMakeFiles/4353a2bd6204198d43f87807282eb759/sfml-populate-test.rule"
+			"file" : "D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-subbuild/CMakeFiles/f319071c055db320408a0d0b3800b6ff/sfml-populate-test.rule"
 		},
 		{
-			"file" : "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-subbuild/CMakeFiles/4353a2bd6204198d43f87807282eb759/sfml-populate-update.rule"
+			"file" : "D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-subbuild/CMakeFiles/f319071c055db320408a0d0b3800b6ff/sfml-populate-update.rule"
 		}
 	],
 	"target" : 

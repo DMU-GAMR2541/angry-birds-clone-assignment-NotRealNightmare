@@ -7,8 +7,8 @@ public:
 	GameObject() = default;
 	~GameObject() = default;
 
-protected:
-	virtual void render(sf::RenderWindow& window);
+
+	virtual void render(sf::RenderWindow& window) = 0;
 
 };
 

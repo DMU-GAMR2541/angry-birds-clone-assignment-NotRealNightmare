@@ -4,22 +4,34 @@
 #include "GameObject.h"
 
 class DynamicObject : public GameObject {
-	DynamicObject() = default;
-	~DynamicObject() = default;
-
-
-public:
+protected:
 	const float SCALE = 30.0f;
 	const float PI = 3.1415927;
 
-	b2World world;
+	b2Body* body;
+	b2World* world;
+	
+public:
+	DynamicObject() = default;
+	~DynamicObject() = default;
+#
+	void initDynamicBody(b2World* worldRef, float x, float y, float halfWidth, float halfHeight, float density, float friction, float restitution) {
+		world = worldRef;
+		b2BodyDef bodyDef;
+		bodyDef.type = b2_dynamicBody;
+		bodyDef.position.Set(x / SCALE, y / SCALE);
+		body = worldRef->CreateBody(&bodyDef);
 
-	b2BodyDef b2_wallDef;
-	b2PolygonShape b2_wallBox;
-	b2BodyDef b2_plankDef;
-	b2PolygonShape b2_plankBox;
-	b2FixtureDef b2_plankFixture;
-	b2BodyDef b2_ballDef;
+		b2PolygonShape shape;
+		shape.SetAsBox(halfWidth / SCALE, halfHeight / SCALE);
 
+		b2FixtureDef fixtureDef;
+		fixtureDef.shape = &shape;
+		fixtureDef.density = density;
+		fixtureDef.friction = friction;
+		fixtureDef.restitution = restitution;
+		body->CreateFixture(&fixtureDef);
+
+	}
 
 };
