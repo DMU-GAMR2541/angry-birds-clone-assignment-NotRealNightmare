@@ -4,6 +4,18 @@
     <ClCompile Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\StaticObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DynamicObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Non_Interactable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Bird.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\include\DynamicObject.h">
@@ -19,6 +31,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\include\StaticObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Non_Interactable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Bird.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

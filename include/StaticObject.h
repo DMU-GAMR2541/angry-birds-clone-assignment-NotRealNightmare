@@ -2,6 +2,7 @@
 #include <SFML/Graphics.hpp>
 #include <box2d/box2d.h>
 #include "GameObject.h"
+#include <string>
 
 class StaticObject : public GameObject {
 protected:
@@ -10,25 +11,19 @@ protected:
 
 
 	b2Body* body;
-	b2World* world;
+	b2BodyDef b2_bodyDef;
+	b2PolygonShape b2_shape;
+	b2FixtureDef b2_fixtureDef;
+	std::string str_sprite;
 
 public:
 	StaticObject() = default;
 	~StaticObject() = default;
 
-	b2Body* getBody() { return body; }
+	StaticObject(b2World& world, b2Vec2 b2_Pos, float halfWidth, float halfHeight, std::string str_sprite);
 
-	void initStaticBody(b2World* worldRef, float x, float y, float halfWidth, float halfHeight) {
-		world = worldRef;
-		b2BodyDef bodyDef;
-		bodyDef.position.Set(x / SCALE, y / SCALE);
-		body = worldRef->CreateBody(&bodyDef);
-
-		b2PolygonShape shape;
-		shape.SetAsBox(halfWidth / SCALE, halfHeight / SCALE);
-		body->CreateFixture(&shape, 0.0f);
-
-	}
+	b2Body* getBody();
 
 	virtual void render(sf::RenderWindow& window) {};
+	virtual void update() {}
 };
