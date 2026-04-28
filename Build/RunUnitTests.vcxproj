@@ -372,11 +372,17 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\include\Bird.h" />
     <ClInclude Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\include\DynamicObject.h" />
     <ClInclude Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\include\Enemy.h" />
     <ClInclude Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\include\GameObject.h" />
+    <ClInclude Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\include\Non_Interactable.h" />
     <ClInclude Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\include\Slingshot.h" />
     <ClInclude Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\include\StaticObject.h" />
+    <ClCompile Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\src\Bird.cpp" />
+    <ClCompile Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\src\DynamicObject.cpp" />
+    <ClCompile Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\src\Non_Interactable.cpp" />
+    <ClCompile Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\src\StaticObject.cpp" />
     <ClCompile Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\test_src\RunTests.cpp" />
   </ItemGroup>
   <ItemGroup />

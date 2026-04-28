@@ -50,7 +50,7 @@ int main() {
 
     // BIRD 
     //Create a bird that is fired when space is pressed. We need to first have a dynamic ball to do it.
-    Bird bird(world, 100.0f, 500.0f, 15.0f);
+    Bird bird(world, 100.0f, 150.0f, 15.0f, "../assets/Ang_Birds/redbord.png");
 
     // --- 7. MAIN LOOP ---
     while (window.isOpen()) {

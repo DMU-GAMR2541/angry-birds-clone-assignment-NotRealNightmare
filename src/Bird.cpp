@@ -1,8 +1,8 @@
 #include "Bird.h"
 #include <iostream>
 
-Bird::Bird(b2World& world, float xPos, float yPos, float radius)
-	: DynamicObject(world, b2Vec2(xPos / SCALE, yPos / SCALE), "") 
+Bird::Bird(b2World& world, float xPos, float yPos, float radius, std::string str_sprite)
+	: DynamicObject(world, b2Vec2(xPos / SCALE, yPos / SCALE), str_sprite) 
 {
 	this->xPos = xPos;
 	this->yPos = yPos;
@@ -19,18 +19,27 @@ Bird::Bird(b2World& world, float xPos, float yPos, float radius)
 	b2_fixtureDef.restitution = 0.5f;
 	body->CreateFixture(&b2_fixtureDef);
 
-	circle.setOrigin(radius, radius);
-	circle.setFillColor(sf::Color::Yellow);
-	circle.setRadius(radius);
+	// Texture
+	if (!birdTexture.loadFromFile(str_sprite)) {
+		std::cout << "Error loading bird texture" << std::endl;
+	}
+
+	// Creating the sprite
+	birdSprite = sf::Sprite(birdTexture);
+	birdSprite.setPosition(xPos, yPos);
+	birdSprite.setOrigin(radius, radius);
+
+	
 }
 
+
 void Bird::render(sf::RenderWindow& window) { 
-	window.draw(circle);
+	window.draw(birdSprite);
 }
 
 void Bird::update() {
-	circle.setPosition(body->GetPosition().x * SCALE, body->GetPosition().y * SCALE);
-	circle.setRotation(body->GetAngle() * (180.0f / PI));
+	birdSprite.setPosition(body->GetPosition().x * SCALE, body->GetPosition().y * SCALE);
+	birdSprite.setRotation(body->GetAngle() * (180.0f / PI));
 }
 
 void Bird::launch() {
