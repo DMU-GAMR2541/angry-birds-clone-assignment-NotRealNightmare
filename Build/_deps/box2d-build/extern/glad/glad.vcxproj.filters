@@ -1,33 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glad\src\gl.c">
+    <ClCompile Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glad\src\gl.c">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glad\include\glad\gl.h">
+    <ClInclude Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glad\include\glad\gl.h">
       <Filter>include\glad</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glad\include\KHR\khrplatform.h">
+    <ClInclude Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glad\include\KHR\khrplatform.h">
       <Filter>include\KHR</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glad\CMakeLists.txt" />
+    <CustomBuild Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glad\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="include">
-      <UniqueIdentifier>{C60B218F-6CDB-3F73-B123-668583A4B9AE}</UniqueIdentifier>
+      <UniqueIdentifier>{02065F84-21B3-3F1E-9DC6-E5DF573A549B}</UniqueIdentifier>
     </Filter>
     <Filter Include="include\KHR">
-      <UniqueIdentifier>{61B24303-2B57-3306-ADFE-C77B907A0552}</UniqueIdentifier>
+      <UniqueIdentifier>{CF869207-CC8D-3489-9822-924CF2BEB043}</UniqueIdentifier>
     </Filter>
     <Filter Include="include\glad">
-      <UniqueIdentifier>{DA11C5AF-5A8E-32B2-AFAC-C288C9094033}</UniqueIdentifier>
+      <UniqueIdentifier>{BA4F4D4E-533B-381D-B856-0F8217CC5D2C}</UniqueIdentifier>
     </Filter>
     <Filter Include="src">
-      <UniqueIdentifier>{0C491B2B-9C1E-30F2-A1A4-B0D775EC34CE}</UniqueIdentifier>
+      <UniqueIdentifier>{39C15CF2-2AAB-3E86-9E7A-3F3F044683E2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

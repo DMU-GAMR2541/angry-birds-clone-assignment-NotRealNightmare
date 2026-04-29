@@ -26,8 +26,8 @@ Bird::Bird(b2World& world, float xPos, float yPos, float radius, std::string str
 
 	// Creating the sprite
 	birdSprite = sf::Sprite(birdTexture);
-	birdSprite.setPosition(xPos, yPos);
-	birdSprite.setOrigin(radius, radius);
+	birdSprite.setPosition(b2_bodyDef.position.x * SCALE, b2_bodyDef.position.y * SCALE);
+	birdSprite.setOrigin(birdTexture.getSize().x / 2.0f, birdTexture.getSize().y / 2.0f);
 
 	
 }

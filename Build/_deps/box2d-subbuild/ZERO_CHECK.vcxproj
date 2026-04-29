@@ -13,7 +13,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{404156C1-51C3-302B-95C7-46B997D53C4F}</ProjectGuid>
+    <ProjectGuid>{DB1A8ED9-1D59-3324-99A9-58837A8D9813}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -49,12 +49,12 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-subbuild\CMakeFiles\8b733d0df81b7071a53a9401acc4132a\generate.stamp.rule">
+    <CustomBuild Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-subbuild\CMakeFiles\4bd4516b443f29e65177fe456fe8d939\generate.stamp.rule">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Checking Build System</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"D:\Program Files\CMake\bin\cmake.exe" -SD:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/box2d-subbuild -BD:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/box2d-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/box2d-subbuild/box2d-populate.sln
+"C:\Program Files\CMake\bin\cmake.exe" "-SH:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/box2d-subbuild" "-BH:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/box2d-subbuild" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/box2d-subbuild/box2d-populate.sln"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -62,14 +62,13 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-subbuild\CMakeFiles\4.3.2\CMakeSystem.cmake;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-subbuild\CMakeLists.txt;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-subbuild\box2d-populate-prefix\tmp\box2d-populate-mkdirs.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject\PatchInfo.txt.in;D:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject\RepositoryInfo.txt.in;D:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject\UpdateInfo.txt.in;D:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject\cfgcmd.txt.in;D:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject\gitclone.cmake.in;D:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject\gitupdate.cmake.in;D:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject\mkdirs.cmake.in;D:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject\shared_internal_commands.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-subbuild\CMakeFiles\3.30.1\CMakeSystem.cmake;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-subbuild\CMakeLists.txt;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-subbuild\box2d-populate-prefix\tmp\box2d-populate-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-subbuild\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

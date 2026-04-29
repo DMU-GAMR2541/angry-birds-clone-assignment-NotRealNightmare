@@ -1,54 +1,54 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\src\Bird.cpp">
+    <ClCompile Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\src\Bird.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\src\DynamicObject.cpp">
+    <ClCompile Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\src\DynamicObject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\src\Non_Interactable.cpp">
+    <ClCompile Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\src\Non_Interactable.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\src\StaticObject.cpp">
+    <ClCompile Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\src\StaticObject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\test_src\RunTests.cpp">
+    <ClCompile Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\test_src\RunTests.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\include\Bird.h">
+    <ClInclude Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\include\Bird.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\include\DynamicObject.h">
+    <ClInclude Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\include\DynamicObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\include\Enemy.h">
+    <ClInclude Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\include\Enemy.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\include\GameObject.h">
+    <ClInclude Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\include\GameObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\include\Non_Interactable.h">
+    <ClInclude Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\include\Non_Interactable.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\include\Slingshot.h">
+    <ClInclude Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\include\Slingshot.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\include\StaticObject.h">
+    <ClInclude Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\include\StaticObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\CMakeLists.txt" />
+    <CustomBuild Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{8E81E738-6C5B-3D54-A09B-7C0EFBC0B3D7}</UniqueIdentifier>
+      <UniqueIdentifier>{665C1C1C-4F00-3A36-864C-2C9D76C59A5D}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{2D2BC70F-73D0-38E1-9615-32FE20024EC6}</UniqueIdentifier>
+      <UniqueIdentifier>{78FC3A52-C61F-3A45-BF20-52E4D0115E8D}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
