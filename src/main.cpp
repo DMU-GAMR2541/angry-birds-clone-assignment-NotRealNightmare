@@ -3,6 +3,7 @@
 #include <iostream>
 #include "Non_Interactable.h"
 #include "Bird.h"
+#include "Pig.h"
 
 int main() {
     // --- 1. WINDOW SETUP ---
@@ -52,6 +53,9 @@ int main() {
     //Create a bird that is fired when space is pressed. We need to first have a dynamic ball to do it.
     Bird bird(world, 100.0f, 150.0f, 15.0f, "../assets/Ang_Birds/redbord.png");
 
+    // PIG
+    Pig pig(world, 400.0f, 200.0f, 20.0f, "../assets/Ang_Birds/Pig.png", 100);
+
     // --- 7. MAIN LOOP ---
     while (window.isOpen()) {
         sf::Event event;
@@ -72,6 +76,7 @@ int main() {
 
 
         bird.update();
+        pig.update();
 
         //All of the visuals needs to be synced with the physics.
         sf_plankVisual.setPosition(b2_plankBody->GetPosition().x * SCALE, b2_plankBody->GetPosition().y * SCALE);
@@ -84,6 +89,7 @@ int main() {
         wall.render(window);
         window.draw(sf_plankVisual);
         bird.render(window);
+        pig.render(window);
 
         window.display();
     }
