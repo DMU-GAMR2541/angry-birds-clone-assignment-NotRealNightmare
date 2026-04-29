@@ -1,7 +1,7 @@
 # CMake generation dependency list for this directory.
-C:/Program Files/CMake/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake
-C:/Program Files/CMake/share/cmake-3.30/Modules/FindPackageMessage.cmake
-H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-src/cmake/Modules/FindFLAC.cmake
-H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-src/cmake/Modules/FindOpenAL.cmake
-H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-src/cmake/Modules/FindVORBIS.cmake
-H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-src/src/SFML/Audio/CMakeLists.txt
+D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-src/cmake/Modules/FindFLAC.cmake
+D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-src/cmake/Modules/FindOpenAL.cmake
+D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-src/cmake/Modules/FindVORBIS.cmake
+D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-src/src/SFML/Audio/CMakeLists.txt
+D:/Program Files/CMake/share/cmake-4.3/Modules/FindPackageHandleStandardArgs.cmake
+D:/Program Files/CMake/share/cmake-4.3/Modules/FindPackageMessage.cmake

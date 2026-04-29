@@ -4,6 +4,7 @@
 #include "Non_Interactable.h"
 #include "Bird.h"
 #include "Pig.h"
+#include "Plank.h"
 
 int main() {
     // --- 1. WINDOW SETUP ---
@@ -28,26 +29,9 @@ int main() {
     //Setting up a wall for the ball to hit.
     Non_Interactable wall(world, b2Vec2(750.0f / SCALE, 500.0f / SCALE), 10.0f, 80.0f, sf::Color::Red, "");
 
-
+    // PLANK
     //Rather than having an immovable wall, we can use the dynamic body type to create one that can have velocity etc.
-    b2BodyDef b2_plankDef;
-
-    b2_plankDef.type = b2_dynamicBody;
-    b2_plankDef.position.Set(550.0f / SCALE, 450.0f / SCALE);
-    b2Body* b2_plankBody = world.CreateBody(&b2_plankDef);
-
-    b2PolygonShape b2_plankBox;
-    b2_plankBox.SetAsBox(10.0f / SCALE, 60.0f / SCALE);
-
-    b2FixtureDef b2_plankFixture;
-    b2_plankFixture.shape = &b2_plankBox;
-    b2_plankFixture.density = 1.5f;   // Light wood
-    b2_plankFixture.friction = 0.3f;
-    b2_plankBody->CreateFixture(&b2_plankFixture);
-
-    sf::RectangleShape sf_plankVisual(sf::Vector2f(20.0f, 120.0f));
-    sf_plankVisual.setOrigin(10.0f, 60.0f);
-    sf_plankVisual.setFillColor(sf::Color(139, 69, 19)); // Brown
+    Plank plank(world, 550.0f, 550.0f, 10.0f, 60.0f, "../assets/Ang_Birds/plank1.png");
 
     // BIRD 
     //Create a bird that is fired when space is pressed. We need to first have a dynamic ball to do it.
@@ -78,16 +62,15 @@ int main() {
         bird.update();
         pig.update();
 
-        //All of the visuals needs to be synced with the physics.
-        sf_plankVisual.setPosition(b2_plankBody->GetPosition().x * SCALE, b2_plankBody->GetPosition().y * SCALE);
-        sf_plankVisual.setRotation(b2_plankBody->GetAngle() * (180.0f / PI));
+        plank.update();
+        
 
         //Render all of the content at each frame. Remember you need to clear the screen each iteration or artefacts remain.
         window.clear(sf::Color(135, 206, 235)); // Sky Blue
 
         ground.render(window);
         wall.render(window);
-        window.draw(sf_plankVisual);
+        plank.render(window);
         bird.render(window);
         pig.render(window);
 

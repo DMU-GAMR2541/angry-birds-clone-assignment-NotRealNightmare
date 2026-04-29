@@ -13,7 +13,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{99B83053-D579-38AE-86F2-11953E2AE31B}</ProjectGuid>
+    <ProjectGuid>{E016C11E-2E49-32FC-AA30-50CE42B284C9}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -49,11 +49,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeLists.txt">
+    <CustomBuild Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-subbuild/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-subbuild/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SH:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-subbuild" "-BH:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-subbuild" --check-stamp-file "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-subbuild/CMakeFiles/generate.stamp"
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-subbuild -BD:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-subbuild --check-stamp-file D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-subbuild/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -61,22 +61,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\download.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\extractfile.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\3.30.1\CMakeSystem.cmake;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\tmp\googletest-populate-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\4.3.2\CMakeSystem.cmake;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\tmp\googletest-populate-mkdirs.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject\PatchInfo.txt.in;D:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject\RepositoryInfo.txt.in;D:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject\UpdateInfo.txt.in;D:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject\cfgcmd.txt.in;D:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject\download.cmake.in;D:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject\extractfile.cmake.in;D:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject\mkdirs.cmake.in;D:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject\shared_internal_commands.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\ZERO_CHECK.vcxproj">
-      <Project>{48FBCB53-7655-3691-AF5C-DF7EFF813BE6}</Project>
+    <ProjectReference Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\ZERO_CHECK.vcxproj">
+      <Project>{6170F688-D078-306F-94CF-0EA4D1996702}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate.vcxproj">
-      <Project>{41FF0033-6732-3958-925B-39FEBE9D2248}</Project>
+    <ProjectReference Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate.vcxproj">
+      <Project>{1AF00160-3BFF-3082-960D-D151B942C9F8}</Project>
       <Name>googletest-populate</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
