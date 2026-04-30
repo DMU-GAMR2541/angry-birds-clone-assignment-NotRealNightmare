@@ -29,6 +29,7 @@ Pig::Pig(b2World& world, float xPos, float yPos, float radius, std::string str_s
 	pigSprite = sf::Sprite(pigTexture);
 	pigSprite.setPosition(b2_bodyDef.position.x * SCALE, b2_bodyDef.position.y * SCALE);
 	pigSprite.setOrigin(pigTexture.getSize().x / 2.0f, pigTexture.getSize().y / 2.0f);
+	pigSprite.setScale(0.6, 0.6);
 }
 
 void Pig::render(sf::RenderWindow& window) {

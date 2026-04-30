@@ -38,7 +38,7 @@ int main() {
     Bird bird(world, 100.0f, 150.0f, 15.0f, "../assets/Ang_Birds/redbord.png");
 
     // PIG
-    Pig pig(world, 400.0f, 200.0f, 20.0f, "../assets/Ang_Birds/Pig.png", 100);
+    Pig pig(world, 550.0f, 455.0f, 20.0f, "../assets/Ang_Birds/Pig.png", 100);
 
     // --- 7. MAIN LOOP ---
     while (window.isOpen()) {

@@ -1,5 +1,5 @@
 # CMake generation dependency list for this directory.
-D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-src/src/SFML/Window/CMakeLists.txt
-D:/Program Files/CMake/share/cmake-4.3/Modules/FindOpenGL.cmake
-D:/Program Files/CMake/share/cmake-4.3/Modules/FindPackageHandleStandardArgs.cmake
-D:/Program Files/CMake/share/cmake-4.3/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/FindOpenGL.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/FindPackageMessage.cmake
+H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-src/src/SFML/Window/CMakeLists.txt

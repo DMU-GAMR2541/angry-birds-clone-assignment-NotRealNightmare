@@ -42,6 +42,9 @@ public:
         plankSprite = sf::Sprite(plankTexture);
         plankSprite.setPosition(b2_bodyDef.position.x * SCALE, b2_bodyDef.position.y * SCALE);
         plankSprite.setOrigin(plankTexture.getSize().x / 2.0f, plankTexture.getSize().y / 2.0f);
+        plankSprite.setScale(0.75f, 1.0f);
+
+
     }
 
     void render(sf::RenderWindow& window) override {
@@ -50,6 +53,7 @@ public:
 
     void update() override {
         plankSprite.setPosition(body->GetPosition().x * SCALE, body->GetPosition().y * SCALE);
-        plankSprite.setRotation(body->GetAngle() * (180.0f / PI));
+        plankSprite.setRotation(body->GetAngle() * (180.0f / PI) + 90.0f);
+        
     }
 };

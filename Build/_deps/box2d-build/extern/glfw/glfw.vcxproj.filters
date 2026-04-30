@@ -1,93 +1,93 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glfw\src\context.c">
+    <ClCompile Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glfw\src\context.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glfw\src\init.c">
+    <ClCompile Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glfw\src\init.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glfw\src\input.c">
+    <ClCompile Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glfw\src\input.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glfw\src\monitor.c">
+    <ClCompile Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glfw\src\monitor.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glfw\src\vulkan.c">
+    <ClCompile Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glfw\src\vulkan.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glfw\src\window.c">
+    <ClCompile Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glfw\src\window.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glfw\src\win32_init.c">
+    <ClCompile Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glfw\src\win32_init.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glfw\src\win32_joystick.c">
+    <ClCompile Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glfw\src\win32_joystick.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glfw\src\win32_monitor.c">
+    <ClCompile Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glfw\src\win32_monitor.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glfw\src\win32_time.c">
+    <ClCompile Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glfw\src\win32_time.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glfw\src\win32_thread.c">
+    <ClCompile Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glfw\src\win32_thread.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glfw\src\win32_window.c">
+    <ClCompile Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glfw\src\win32_window.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glfw\src\wgl_context.c">
+    <ClCompile Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glfw\src\wgl_context.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glfw\src\egl_context.c">
+    <ClCompile Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glfw\src\egl_context.c">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glfw\src\osmesa_context.c">
+    <ClCompile Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glfw\src\osmesa_context.c">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glfw\src\internal.h">
+    <ClInclude Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glfw\src\internal.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glfw\src\mappings.h">
+    <ClInclude Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glfw\src\mappings.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glfw\include\GLFW\glfw3.h">
+    <ClInclude Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glfw\include\GLFW\glfw3.h">
       <Filter>include\GLFW</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glfw\include\GLFW\glfw3native.h">
+    <ClInclude Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glfw\include\GLFW\glfw3native.h">
       <Filter>include\GLFW</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glfw\src\win32_platform.h">
+    <ClInclude Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glfw\src\win32_platform.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glfw\src\win32_joystick.h">
+    <ClInclude Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glfw\src\win32_joystick.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glfw\src\wgl_context.h">
+    <ClInclude Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glfw\src\wgl_context.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glfw\src\egl_context.h">
+    <ClInclude Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glfw\src\egl_context.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glfw\src\osmesa_context.h">
+    <ClInclude Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glfw\src\osmesa_context.h">
       <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glfw\CMakeLists.txt" />
+    <CustomBuild Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\extern\glfw\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="include">
-      <UniqueIdentifier>{C60B218F-6CDB-3F73-B123-668583A4B9AE}</UniqueIdentifier>
+      <UniqueIdentifier>{02065F84-21B3-3F1E-9DC6-E5DF573A549B}</UniqueIdentifier>
     </Filter>
     <Filter Include="include\GLFW">
-      <UniqueIdentifier>{525DD908-2A67-3835-970F-0FD115420153}</UniqueIdentifier>
+      <UniqueIdentifier>{77ED271F-00D1-3C30-99A2-03699D23AC0C}</UniqueIdentifier>
     </Filter>
     <Filter Include="src">
-      <UniqueIdentifier>{0C491B2B-9C1E-30F2-A1A4-B0D775EC34CE}</UniqueIdentifier>
+      <UniqueIdentifier>{39C15CF2-2AAB-3E86-9E7A-3F3F044683E2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

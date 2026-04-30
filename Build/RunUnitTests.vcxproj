@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{F60EEA7D-368B-39B1-9DF0-F3361D2EA6F0}</ProjectGuid>
+    <ProjectGuid>{A3BFC854-B59E-31A5-87E1-7AB874C71019}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\bin\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\bin\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">RunUnitTests.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">RunUnitTests</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\bin\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\bin\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">RunUnitTests.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">RunUnitTests</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\bin\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\bin\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">RunUnitTests.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">RunUnitTests</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\bin\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\bin\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">RunUnitTests.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">RunUnitTests</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -86,26 +86,20 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\include;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\src\..\include;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-src/googletest/include" /external:I "D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-src/googletest"</AdditionalOptions>
+      <AdditionalIncludeDirectories>H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\include;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\src\..\include;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-src/googletest/include" /external:I "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-src/googletest"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
-      <BufferSecurityCheck></BufferSecurityCheck>
-      <CallingConvention></CallingConvention>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
       <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
-      <FloatingPointModel></FloatingPointModel>
-      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
       <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <MinimalRebuild></MinimalRebuild>
       <Optimization>Disabled</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <SupportJustMyCode></SupportJustMyCode>
-      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
       <UseFullPaths>false</UseFullPaths>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;SFML_STATIC;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
@@ -113,10 +107,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;SFML_STATIC;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\include;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\src\..\include;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-src\include;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-src\googletest\include;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\include;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\src\..\include;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-src\include;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-src\googletest\include;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\include;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\src\..\include;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-src\include;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-src\googletest\include;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\include;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\src\..\include;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-src\include;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-src\googletest\include;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -124,17 +118,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>lib\Debug\gtest.lib;lib\Debug\gtest_main.lib;_deps\box2d-build\bin\Debug\box2d.lib;_deps\sfml-build\lib\Debug\sfml-graphics-s-d.lib;_deps\sfml-build\lib\Debug\sfml-audio-s-d.lib;_deps\sfml-build\lib\Debug\sfml-network-s-d.lib;_deps\sfml-build\lib\Debug\sfml-system-s-d.lib;lib\Debug\gtest.lib;_deps\sfml-build\lib\Debug\sfml-window-s-d.lib;opengl32.lib;gdi32.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\freetype.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\openal32.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\vorbisenc.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\vorbisfile.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\vorbis.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\ogg.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\flac.lib;_deps\sfml-build\lib\Debug\sfml-system-s-d.lib;winmm.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>lib\Debug\gtest.lib;lib\Debug\gtest_main.lib;_deps\box2d-build\bin\Debug\box2d.lib;_deps\sfml-build\lib\Debug\sfml-graphics-s-d.lib;_deps\sfml-build\lib\Debug\sfml-audio-s-d.lib;_deps\sfml-build\lib\Debug\sfml-network-s-d.lib;_deps\sfml-build\lib\Debug\sfml-system-s-d.lib;lib\Debug\gtest.lib;_deps\sfml-build\lib\Debug\sfml-window-s-d.lib;opengl32.lib;gdi32.lib;legacy_stdio_definitions.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\freetype.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\openal32.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\vorbisenc.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\vorbisfile.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\vorbis.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\ogg.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\flac.lib;_deps\sfml-build\lib\Debug\sfml-system-s-d.lib;winmm.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
-      <DataExecutionPrevention></DataExecutionPrevention>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
-      <ImportLibrary>D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/Debug/RunUnitTests.lib</ImportLibrary>
-      <LinkErrorReporting></LinkErrorReporting>
-      <ProgramDataBaseFile>D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/bin/Debug/RunUnitTests.pdb</ProgramDataBaseFile>
-      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <ImportLibrary>H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/Debug/RunUnitTests.lib</ImportLibrary>
+      <ProgramDataBaseFile>H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/bin/Debug/RunUnitTests.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -143,25 +133,19 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\include;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\src\..\include;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-src/googletest/include" /external:I "D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-src/googletest"</AdditionalOptions>
+      <AdditionalIncludeDirectories>H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\include;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\src\..\include;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-src/googletest/include" /external:I "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-src/googletest"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
-      <BufferSecurityCheck></BufferSecurityCheck>
-      <CallingConvention></CallingConvention>
       <ExceptionHandling>Sync</ExceptionHandling>
       <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
-      <FloatingPointModel></FloatingPointModel>
-      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <MinimalRebuild></MinimalRebuild>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <SupportJustMyCode></SupportJustMyCode>
-      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
       <UseFullPaths>false</UseFullPaths>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SFML_STATIC;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
@@ -171,10 +155,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SFML_STATIC;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\include;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\src\..\include;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-src\include;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-src\googletest\include;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\include;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\src\..\include;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-src\include;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-src\googletest\include;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\include;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\src\..\include;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-src\include;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-src\googletest\include;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\include;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\src\..\include;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-src\include;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-src\googletest\include;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -182,17 +166,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>lib\Release\gtest.lib;lib\Release\gtest_main.lib;_deps\box2d-build\bin\Release\box2d.lib;_deps\sfml-build\lib\Release\sfml-graphics-s.lib;_deps\sfml-build\lib\Release\sfml-audio-s.lib;_deps\sfml-build\lib\Release\sfml-network-s.lib;_deps\sfml-build\lib\Release\sfml-system-s.lib;lib\Release\gtest.lib;_deps\sfml-build\lib\Release\sfml-window-s.lib;opengl32.lib;gdi32.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\freetype.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\openal32.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\vorbisenc.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\vorbisfile.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\vorbis.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\ogg.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\flac.lib;_deps\sfml-build\lib\Release\sfml-system-s.lib;winmm.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>lib\Release\gtest.lib;lib\Release\gtest_main.lib;_deps\box2d-build\bin\Release\box2d.lib;_deps\sfml-build\lib\Release\sfml-graphics-s.lib;_deps\sfml-build\lib\Release\sfml-audio-s.lib;_deps\sfml-build\lib\Release\sfml-network-s.lib;_deps\sfml-build\lib\Release\sfml-system-s.lib;lib\Release\gtest.lib;_deps\sfml-build\lib\Release\sfml-window-s.lib;opengl32.lib;gdi32.lib;legacy_stdio_definitions.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\freetype.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\openal32.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\vorbisenc.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\vorbisfile.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\vorbis.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\ogg.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\flac.lib;_deps\sfml-build\lib\Release\sfml-system-s.lib;winmm.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
-      <DataExecutionPrevention></DataExecutionPrevention>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
-      <ImportLibrary>D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/Release/RunUnitTests.lib</ImportLibrary>
-      <LinkErrorReporting></LinkErrorReporting>
-      <ProgramDataBaseFile>D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/bin/Release/RunUnitTests.pdb</ProgramDataBaseFile>
-      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <ImportLibrary>H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/Release/RunUnitTests.lib</ImportLibrary>
+      <ProgramDataBaseFile>H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/bin/Release/RunUnitTests.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -201,25 +181,19 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\include;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\src\..\include;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-src/googletest/include" /external:I "D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-src/googletest"</AdditionalOptions>
+      <AdditionalIncludeDirectories>H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\include;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\src\..\include;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-src/googletest/include" /external:I "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-src/googletest"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
-      <BufferSecurityCheck></BufferSecurityCheck>
-      <CallingConvention></CallingConvention>
       <ExceptionHandling>Sync</ExceptionHandling>
       <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
-      <FloatingPointModel></FloatingPointModel>
-      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <MinimalRebuild></MinimalRebuild>
       <Optimization>MinSpace</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <SupportJustMyCode></SupportJustMyCode>
-      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
       <UseFullPaths>false</UseFullPaths>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SFML_STATIC;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
@@ -229,10 +203,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SFML_STATIC;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\include;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\src\..\include;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-src\include;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-src\googletest\include;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\include;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\src\..\include;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-src\include;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-src\googletest\include;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\include;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\src\..\include;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-src\include;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-src\googletest\include;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\include;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\src\..\include;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-src\include;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-src\googletest\include;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -240,17 +214,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>lib\MinSizeRel\gtest.lib;lib\MinSizeRel\gtest_main.lib;_deps\box2d-build\bin\MinSizeRel\box2d.lib;_deps\sfml-build\lib\MinSizeRel\sfml-graphics-s.lib;_deps\sfml-build\lib\MinSizeRel\sfml-audio-s.lib;_deps\sfml-build\lib\MinSizeRel\sfml-network-s.lib;_deps\sfml-build\lib\MinSizeRel\sfml-system-s.lib;lib\MinSizeRel\gtest.lib;_deps\sfml-build\lib\MinSizeRel\sfml-window-s.lib;opengl32.lib;gdi32.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\freetype.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\openal32.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\vorbisenc.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\vorbisfile.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\vorbis.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\ogg.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\flac.lib;_deps\sfml-build\lib\MinSizeRel\sfml-system-s.lib;winmm.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>lib\MinSizeRel\gtest.lib;lib\MinSizeRel\gtest_main.lib;_deps\box2d-build\bin\MinSizeRel\box2d.lib;_deps\sfml-build\lib\MinSizeRel\sfml-graphics-s.lib;_deps\sfml-build\lib\MinSizeRel\sfml-audio-s.lib;_deps\sfml-build\lib\MinSizeRel\sfml-network-s.lib;_deps\sfml-build\lib\MinSizeRel\sfml-system-s.lib;lib\MinSizeRel\gtest.lib;_deps\sfml-build\lib\MinSizeRel\sfml-window-s.lib;opengl32.lib;gdi32.lib;legacy_stdio_definitions.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\freetype.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\openal32.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\vorbisenc.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\vorbisfile.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\vorbis.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\ogg.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\flac.lib;_deps\sfml-build\lib\MinSizeRel\sfml-system-s.lib;winmm.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
-      <DataExecutionPrevention></DataExecutionPrevention>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
-      <ImportLibrary>D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/MinSizeRel/RunUnitTests.lib</ImportLibrary>
-      <LinkErrorReporting></LinkErrorReporting>
-      <ProgramDataBaseFile>D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/bin/MinSizeRel/RunUnitTests.pdb</ProgramDataBaseFile>
-      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <ImportLibrary>H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/MinSizeRel/RunUnitTests.lib</ImportLibrary>
+      <ProgramDataBaseFile>H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/bin/MinSizeRel/RunUnitTests.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -259,26 +229,20 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\include;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\src\..\include;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-src/googletest/include" /external:I "D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-src/googletest"</AdditionalOptions>
+      <AdditionalIncludeDirectories>H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\include;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\src\..\include;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-src/googletest/include" /external:I "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-src/googletest"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
-      <BufferSecurityCheck></BufferSecurityCheck>
-      <CallingConvention></CallingConvention>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
       <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
-      <FloatingPointModel></FloatingPointModel>
-      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <MinimalRebuild></MinimalRebuild>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <SupportJustMyCode></SupportJustMyCode>
-      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
       <UseFullPaths>false</UseFullPaths>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SFML_STATIC;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
@@ -286,10 +250,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SFML_STATIC;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\include;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\src\..\include;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-src\include;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-src\googletest\include;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\include;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\src\..\include;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-src\include;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-src\googletest\include;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\include;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\src\..\include;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-src\include;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-src\googletest\include;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\include;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-src\src\..\include;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-src\include;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-src\googletest\include;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -297,17 +261,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>lib\RelWithDebInfo\gtest.lib;lib\RelWithDebInfo\gtest_main.lib;_deps\box2d-build\bin\RelWithDebInfo\box2d.lib;_deps\sfml-build\lib\RelWithDebInfo\sfml-graphics-s.lib;_deps\sfml-build\lib\RelWithDebInfo\sfml-audio-s.lib;_deps\sfml-build\lib\RelWithDebInfo\sfml-network-s.lib;_deps\sfml-build\lib\RelWithDebInfo\sfml-system-s.lib;lib\RelWithDebInfo\gtest.lib;_deps\sfml-build\lib\RelWithDebInfo\sfml-window-s.lib;opengl32.lib;gdi32.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\freetype.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\openal32.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\vorbisenc.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\vorbisfile.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\vorbis.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\ogg.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\flac.lib;_deps\sfml-build\lib\RelWithDebInfo\sfml-system-s.lib;winmm.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>lib\RelWithDebInfo\gtest.lib;lib\RelWithDebInfo\gtest_main.lib;_deps\box2d-build\bin\RelWithDebInfo\box2d.lib;_deps\sfml-build\lib\RelWithDebInfo\sfml-graphics-s.lib;_deps\sfml-build\lib\RelWithDebInfo\sfml-audio-s.lib;_deps\sfml-build\lib\RelWithDebInfo\sfml-network-s.lib;_deps\sfml-build\lib\RelWithDebInfo\sfml-system-s.lib;lib\RelWithDebInfo\gtest.lib;_deps\sfml-build\lib\RelWithDebInfo\sfml-window-s.lib;opengl32.lib;gdi32.lib;legacy_stdio_definitions.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\freetype.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\openal32.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\vorbisenc.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\vorbisfile.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\vorbis.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\ogg.lib;_deps\sfml-src\extlibs\libs-msvc-universal\x64\flac.lib;_deps\sfml-build\lib\RelWithDebInfo\sfml-system-s.lib;winmm.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
-      <DataExecutionPrevention></DataExecutionPrevention>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
-      <ImportLibrary>D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/RelWithDebInfo/RunUnitTests.lib</ImportLibrary>
-      <LinkErrorReporting></LinkErrorReporting>
-      <ProgramDataBaseFile>D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/bin/RelWithDebInfo/RunUnitTests.pdb</ProgramDataBaseFile>
-      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <ImportLibrary>H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/RelWithDebInfo/RunUnitTests.lib</ImportLibrary>
+      <ProgramDataBaseFile>H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/bin/RelWithDebInfo/RunUnitTests.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -315,11 +275,11 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\CMakeLists.txt">
+    <CustomBuild Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"D:\Program Files\CMake\bin\cmake.exe" -SD:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare -BD:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build --check-stamp-file D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" "-SH:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare" "-BH:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build" --check-stamp-file "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -327,12 +287,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\CMakeFiles\4.3.2\CMakeCCompiler.cmake;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\CMakeFiles\4.3.2\CMakeCXXCompiler.cmake;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\CMakeFiles\4.3.2\CMakeRCCompiler.cmake;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\CMakeFiles\4.3.2\CMakeSystem.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject\shared_internal_commands.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\FetchContent.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\FetchContent\CMakeLists.cmake.in;D:\Program Files\CMake\share\cmake-4.3\Modules\FindGit.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCLinkerInformation.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\CMakeFiles\3.30.1\CMakeCCompiler.cmake;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\CMakeFiles\3.30.1\CMakeCXXCompiler.cmake;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\CMakeFiles\3.30.1\CMakeRCCompiler.cmake;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\CMakeFiles\3.30.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"D:\Program Files\CMake\bin\cmake.exe" -SD:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare -BD:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build --check-stamp-file D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" "-SH:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare" "-BH:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build" --check-stamp-file "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -340,12 +300,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\CMakeFiles\4.3.2\CMakeCCompiler.cmake;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\CMakeFiles\4.3.2\CMakeCXXCompiler.cmake;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\CMakeFiles\4.3.2\CMakeRCCompiler.cmake;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\CMakeFiles\4.3.2\CMakeSystem.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject\shared_internal_commands.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\FetchContent.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\FetchContent\CMakeLists.cmake.in;D:\Program Files\CMake\share\cmake-4.3\Modules\FindGit.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCLinkerInformation.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\CMakeFiles\3.30.1\CMakeCCompiler.cmake;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\CMakeFiles\3.30.1\CMakeCXXCompiler.cmake;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\CMakeFiles\3.30.1\CMakeRCCompiler.cmake;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\CMakeFiles\3.30.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"D:\Program Files\CMake\bin\cmake.exe" -SD:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare -BD:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build --check-stamp-file D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" "-SH:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare" "-BH:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build" --check-stamp-file "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -353,12 +313,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\CMakeFiles\4.3.2\CMakeCCompiler.cmake;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\CMakeFiles\4.3.2\CMakeCXXCompiler.cmake;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\CMakeFiles\4.3.2\CMakeRCCompiler.cmake;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\CMakeFiles\4.3.2\CMakeSystem.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject\shared_internal_commands.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\FetchContent.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\FetchContent\CMakeLists.cmake.in;D:\Program Files\CMake\share\cmake-4.3\Modules\FindGit.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCLinkerInformation.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\CMakeFiles\3.30.1\CMakeCCompiler.cmake;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\CMakeFiles\3.30.1\CMakeCXXCompiler.cmake;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\CMakeFiles\3.30.1\CMakeRCCompiler.cmake;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\CMakeFiles\3.30.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"D:\Program Files\CMake\bin\cmake.exe" -SD:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare -BD:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build --check-stamp-file D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" "-SH:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare" "-BH:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build" --check-stamp-file "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -366,65 +326,67 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\CMakeFiles\4.3.2\CMakeCCompiler.cmake;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\CMakeFiles\4.3.2\CMakeCXXCompiler.cmake;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\CMakeFiles\4.3.2\CMakeRCCompiler.cmake;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\CMakeFiles\4.3.2\CMakeSystem.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject\shared_internal_commands.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\FetchContent.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\FetchContent\CMakeLists.cmake.in;D:\Program Files\CMake\share\cmake-4.3\Modules\FindGit.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCLinkerInformation.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\CMakeFiles\3.30.1\CMakeCCompiler.cmake;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\CMakeFiles\3.30.1\CMakeCXXCompiler.cmake;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\CMakeFiles\3.30.1\CMakeRCCompiler.cmake;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\CMakeFiles\3.30.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\include\Bird.h" />
-    <ClInclude Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\include\DynamicObject.h" />
-    <ClInclude Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\include\Enemy.h" />
-    <ClInclude Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\include\GameObject.h" />
-    <ClInclude Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\include\Non_Interactable.h" />
-    <ClInclude Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\include\Pig.h" />
-    <ClInclude Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\include\Slingshot.h" />
-    <ClInclude Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\include\StaticObject.h" />
-    <ClCompile Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\src\Bird.cpp" />
-    <ClCompile Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\src\DynamicObject.cpp" />
-    <ClCompile Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\src\Non_Interactable.cpp" />
-    <ClCompile Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\src\Pig.cpp" />
-    <ClCompile Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\src\StaticObject.cpp" />
-    <ClCompile Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\test_src\RunTests.cpp" />
+    <ClInclude Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\include\Bird.h" />
+    <ClInclude Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\include\Catapult.h" />
+    <ClInclude Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\include\DynamicObject.h" />
+    <ClInclude Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\include\Enemy.h" />
+    <ClInclude Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\include\GameObject.h" />
+    <ClInclude Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\include\Non_Interactable.h" />
+    <ClInclude Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\include\Pig.h" />
+    <ClInclude Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\include\Plank.h" />
+    <ClInclude Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\include\Slingshot.h" />
+    <ClInclude Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\include\StaticObject.h" />
+    <ClCompile Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\src\Bird.cpp" />
+    <ClCompile Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\src\Catapult.cpp" />
+    <ClCompile Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\src\DynamicObject.cpp" />
+    <ClCompile Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\src\Non_Interactable.cpp" />
+    <ClCompile Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\src\Pig.cpp" />
+    <ClCompile Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\src\StaticObject.cpp" />
+    <ClCompile Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\test_src\RunTests.cpp" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\ZERO_CHECK.vcxproj">
-      <Project>{B8AAF64B-4DEF-3159-8F7F-9FBE0DA3287E}</Project>
+    <ProjectReference Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\ZERO_CHECK.vcxproj">
+      <Project>{9A040C8C-F367-3349-9943-02B212BB424C}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-build\src\box2d.vcxproj">
-      <Project>{47414483-98B6-3B10-91E4-5DCFD16D04BA}</Project>
+    <ProjectReference Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\box2d-build\src\box2d.vcxproj">
+      <Project>{80991DB0-24D8-35A7-BB90-5BA374123656}</Project>
       <Name>box2d</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-build\googletest\gtest.vcxproj">
-      <Project>{D361D5E0-08B8-3593-A8CF-044EE0DD132D}</Project>
+    <ProjectReference Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-build\googletest\gtest.vcxproj">
+      <Project>{8274B359-7C7E-3C44-9953-F26B28A1C212}</Project>
       <Name>gtest</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-build\googletest\gtest_main.vcxproj">
-      <Project>{756C1D3D-95B7-3B4F-ACA9-298CF0E9F597}</Project>
+    <ProjectReference Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-build\googletest\gtest_main.vcxproj">
+      <Project>{1DA3AF93-D960-30E8-8B34-DE3EC5F4387E}</Project>
       <Name>gtest_main</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-build\src\SFML\Audio\sfml-audio.vcxproj">
-      <Project>{8E56872F-4603-37FF-883B-8530CD4041D3}</Project>
+    <ProjectReference Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-build\src\SFML\Audio\sfml-audio.vcxproj">
+      <Project>{A1B969A0-3B05-359C-BF87-15438AAC78F7}</Project>
       <Name>sfml-audio</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-build\src\SFML\Graphics\sfml-graphics.vcxproj">
-      <Project>{56E38B7C-8E5E-3E5B-9F5C-C53ADBAFC465}</Project>
+    <ProjectReference Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-build\src\SFML\Graphics\sfml-graphics.vcxproj">
+      <Project>{D84154AE-23B1-387F-AD7A-28DD5AF7E3BB}</Project>
       <Name>sfml-graphics</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-build\src\SFML\Network\sfml-network.vcxproj">
-      <Project>{B49465E9-1D77-3C35-8E3F-EE41643112CB}</Project>
+    <ProjectReference Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-build\src\SFML\Network\sfml-network.vcxproj">
+      <Project>{D2044BF3-1889-371E-9BC0-BC49A401F19A}</Project>
       <Name>sfml-network</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-build\src\SFML\System\sfml-system.vcxproj">
-      <Project>{898A5D76-5436-3778-9288-0AFF477DDDC7}</Project>
+    <ProjectReference Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-build\src\SFML\System\sfml-system.vcxproj">
+      <Project>{B0F56786-DD1E-39C0-A3EB-D18F66A1FD90}</Project>
       <Name>sfml-system</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-build\src\SFML\Window\sfml-window.vcxproj">
-      <Project>{8C567B41-3074-314F-8241-C2D79B3DC42D}</Project>
+    <ProjectReference Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-build\src\SFML\Window\sfml-window.vcxproj">
+      <Project>{8ED5F1BB-B926-304C-A834-8CF72AD41DA0}</Project>
       <Name>sfml-window</Name>
     </ProjectReference>
   </ItemGroup>
