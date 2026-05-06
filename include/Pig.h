@@ -8,8 +8,6 @@ private:
 	float xPos;
 	float yPos;
 	float radius;
-	sf::Texture pigTexture;
-	sf::Sprite pigSprite;
 	Enemy enemy;
 
 public:

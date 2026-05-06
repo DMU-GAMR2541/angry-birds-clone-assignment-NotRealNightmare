@@ -5,6 +5,7 @@
 #include "Bird.h"
 #include "Pig.h"
 #include "Plank.h"
+#include <vector>
 
 int main() {
     // --- 1. WINDOW SETUP ---
@@ -39,6 +40,10 @@ int main() {
 
     // PIG
     Pig pig(world, 550.0f, 455.0f, 20.0f, "../assets/Ang_Birds/Pig.png", 100);
+
+    std::vector<Pig>::iterator itPig;
+    std::vector<Pig> vecPig;
+    vecPig.push_back(pig);
 
     // --- 7. MAIN LOOP ---
     while (window.isOpen()) {

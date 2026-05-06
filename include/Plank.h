@@ -8,8 +8,7 @@ private:
     float yPos;
     float halfWidth;
     float halfHeight;
-    sf::Texture plankTexture;
-    sf::Sprite plankSprite;
+    
 
 public:
     Plank() = default;
@@ -33,27 +32,20 @@ public:
         b2_fixtureDef.friction = 0.3f;
         body->CreateFixture(&b2_fixtureDef);
 
-        // creating texture
-        if (!plankTexture.loadFromFile(str_sprite)) {
-            std::cout << "Error loading plank texture" << std::endl;
-        }
-
-        // creating the sprite
-        plankSprite = sf::Sprite(plankTexture);
-        plankSprite.setPosition(b2_bodyDef.position.x * SCALE, b2_bodyDef.position.y * SCALE);
-        plankSprite.setOrigin(plankTexture.getSize().x / 2.0f, plankTexture.getSize().y / 2.0f);
-        plankSprite.setScale(0.75f, 1.0f);
-
+        
+       
+        // scales the plank sprite
+        sp_Sprite.setScale(0.73f, 1.0f);
 
     }
 
     void render(sf::RenderWindow& window) override {
-        window.draw(plankSprite);
+        window.draw(sp_Sprite);
     }
 
     void update() override {
-        plankSprite.setPosition(body->GetPosition().x * SCALE, body->GetPosition().y * SCALE);
-        plankSprite.setRotation(body->GetAngle() * (180.0f / PI) + 90.0f);
+        sp_Sprite.setPosition(body->GetPosition().x * SCALE, body->GetPosition().y * SCALE);
+        sp_Sprite.setRotation(body->GetAngle() * (180.0f / PI) + 90.0f);
         
     }
 };

@@ -2,15 +2,15 @@
 #include <iostream>
 
 Pig::Pig(b2World& world, float xPos, float yPos, float radius, std::string str_sprite, int Health)
-	: DynamicObject(world, b2Vec2(xPos / SCALE, yPos / SCALE), str_sprite), enemy(Health)
+	: DynamicObject(world, b2Vec2(xPos, yPos), str_sprite), enemy(Health)
 {
 	this->xPos = xPos;
 	this->yPos = yPos;
 	this->radius = radius;
 
-	b2_bodyDef.position.Set(xPos / SCALE, yPos / SCALE);
+	/*b2_bodyDef.position.Set(xPos / SCALE, yPos / SCALE);
 	b2_bodyDef.type = b2_dynamicBody;
-	body = world.CreateBody(&b2_bodyDef);
+	body = world.CreateBody(&b2_bodyDef);*/
 
 	b2_circleShape.m_radius = radius / SCALE;
 
@@ -20,27 +20,20 @@ Pig::Pig(b2World& world, float xPos, float yPos, float radius, std::string str_s
 	b2_fixtureDef.restitution = 0.6f;
 	body->CreateFixture(&b2_fixtureDef);
 
-	// Texture
-	if (!pigTexture.loadFromFile(str_sprite)) {
-		std::cout << "Error loading pig texture" << std::endl;
-	}
 
-	// Creating the sprite
-	pigSprite = sf::Sprite(pigTexture);
-	pigSprite.setPosition(b2_bodyDef.position.x * SCALE, b2_bodyDef.position.y * SCALE);
-	pigSprite.setOrigin(pigTexture.getSize().x / 2.0f, pigTexture.getSize().y / 2.0f);
-	pigSprite.setScale(0.6, 0.6);
+	// scales the pig sprite
+	sp_Sprite.setScale(0.73f, 0.73f);
 }
 
 void Pig::render(sf::RenderWindow& window) {
 	if (!enemy.checkIfPopped()) {
-		window.draw(pigSprite);
+		window.draw(sp_Sprite);
 	}	
 }
 
 void Pig::update() {
-	pigSprite.setPosition(body->GetPosition().x * SCALE, body->GetPosition().y * SCALE);
-	pigSprite.setRotation(body->GetAngle() * (180.0f / PI));
+	sp_Sprite.setPosition(body->GetPosition().x * SCALE, body->GetPosition().y * SCALE);
+	sp_Sprite.setRotation(body->GetAngle() * (180.0f / PI));
 }
 
 void Pig::takeDamage(int damage) {

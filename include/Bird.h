@@ -6,8 +6,6 @@ private:
 	float xPos;
 	float yPos;
 	float radius;
-	sf::Texture birdTexture;
-	sf::Sprite birdSprite;
 
 public:
 	Bird() = default;
