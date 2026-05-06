@@ -41,9 +41,11 @@ int main() {
     // PIG
     Pig pig(world, 550.0f, 455.0f, 20.0f, "../assets/Ang_Birds/Pig.png", 100);
 
-    std::vector<Pig>::iterator itPig;
-    std::vector<Pig> vecPig;
-    vecPig.push_back(pig);
+    std::vector<std::shared_ptr<Pig>> vecPig;
+
+    for (int i = 0; i < 4; i++) {
+        vecPig.push_back(std::make_shared<Pig>(world, 200.0f + (i * 120.0f), 455.0f, 20.0f, "../assets/Ang_Birds/Pig.png", 100));
+    }
 
     // --- 7. MAIN LOOP ---
     while (window.isOpen()) {
@@ -65,9 +67,11 @@ int main() {
 
 
         bird.update();
-        pig.update();
-
         plank.update();
+
+        for (std::vector<std::shared_ptr<Pig>>::iterator itPig = vecPig.begin(); itPig != vecPig.end(); itPig++) {
+            (*itPig)->update();
+        }
         
 
         //Render all of the content at each frame. Remember you need to clear the screen each iteration or artefacts remain.
@@ -77,7 +81,11 @@ int main() {
         wall.render(window);
         plank.render(window);
         bird.render(window);
-        pig.render(window);
+
+        for (std::vector<std::shared_ptr<Pig>>::iterator itPig = vecPig.begin(); itPig != vecPig.end(); itPig++) {
+            (*itPig)->render(window);
+        }
+        
 
         window.display();
     }

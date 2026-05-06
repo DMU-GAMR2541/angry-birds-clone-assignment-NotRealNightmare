@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-subbuild/CMakeFiles/sfml-populate"
+		},
+		{
+			"file" : "D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-subbuild/CMakeFiles/fa96a957332252fcff611c6061f41d76/sfml-populate.rule"
+		},
+		{
+			"file" : "D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-subbuild/CMakeFiles/a4d0b12f8e690c4c5b047566f5c4d7e4/sfml-populate-complete.rule"
+		},
+		{
+			"file" : "D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-subbuild/CMakeFiles/f319071c055db320408a0d0b3800b6ff/sfml-populate-build.rule"
+		},
+		{
+			"file" : "D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-subbuild/CMakeFiles/f319071c055db320408a0d0b3800b6ff/sfml-populate-configure.rule"
+		},
+		{
+			"file" : "D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-subbuild/CMakeFiles/f319071c055db320408a0d0b3800b6ff/sfml-populate-download.rule"
+		},
+		{
+			"file" : "D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-subbuild/CMakeFiles/f319071c055db320408a0d0b3800b6ff/sfml-populate-install.rule"
+		},
+		{
+			"file" : "D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-subbuild/CMakeFiles/f319071c055db320408a0d0b3800b6ff/sfml-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-subbuild/CMakeFiles/f319071c055db320408a0d0b3800b6ff/sfml-populate-patch.rule"
+		},
+		{
+			"file" : "D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-subbuild/CMakeFiles/f319071c055db320408a0d0b3800b6ff/sfml-populate-test.rule"
+		},
+		{
+			"file" : "D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/sfml-subbuild/CMakeFiles/f319071c055db320408a0d0b3800b6ff/sfml-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"sfml-populate"
+		],
+		"name" : "sfml-populate"
+	}
+}
