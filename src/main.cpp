@@ -6,6 +6,7 @@
 #include "Pig.h"
 #include "Plank.h"
 #include <vector>
+#include <list>
 
 int main() {
     // --- 1. WINDOW SETUP ---
@@ -36,12 +37,17 @@ int main() {
 
     // BIRD 
     //Create a bird that is fired when space is pressed. We need to first have a dynamic ball to do it.
-    Bird bird(world, 100.0f, 150.0f, 15.0f, "../assets/Ang_Birds/redbord.png");
+    //Bird bird(world, 100.0f, 150.0f, 15.0f, "../assets/Ang_Birds/redbord.png");
 
     // PIG
-    Pig pig(world, 550.0f, 455.0f, 20.0f, "../assets/Ang_Birds/Pig.png", 100);
+    //Pig pig(world, 550.0f, 455.0f, 20.0f, "../assets/Ang_Birds/Pig.png", 100);
 
+    std::list<std::shared_ptr<Bird>> birdType;
     std::vector<std::shared_ptr<Pig>> vecPig;
+    
+    for (int i = 0; i < 3; i++) {
+        birdType.push_back(std::make_shared<Bird>(world, 100.0f - (i * 40.0f), 540.0f, 15.0f, "../assets/Ang_Birds/redbord.png"));
+    }
 
     for (int i = 0; i < 4; i++) {
         vecPig.push_back(std::make_shared<Pig>(world, 200.0f + (i * 120.0f), 455.0f, 20.0f, "../assets/Ang_Birds/Pig.png", 100));
@@ -54,25 +60,35 @@ int main() {
             if (event.type == sf::Event::Closed)
                 window.close();
 
-            // INPUT HANDLING: Press SPACE to launch
             if (event.type == sf::Event::KeyPressed) {
-                if (event.key.code == sf::Keyboard::Space) {
-                    bird.launch(); 
+                if (!birdType.empty()) {
+                    auto& currentBird = birdType.front();
+                    if (event.key.code == sf::Keyboard::Space) {
+                        currentBird->launch();
+                    }
+                    if (event.key.code == sf::Keyboard::B) {
+                        world.DestroyBody(birdType.front()->getBody());
+                        birdType.pop_front();
+                    }
                 }
             }
         }
+
 
         // Update Physics
         world.Step(1.0f / 60.0f, 8, 3);
 
 
-        bird.update();
         plank.update();
+
+        for (std::list<std::shared_ptr<Bird>>::iterator itBird = birdType.begin(); itBird != birdType.end(); itBird++) {
+            (*itBird)->update();
+        }
 
         for (std::vector<std::shared_ptr<Pig>>::iterator itPig = vecPig.begin(); itPig != vecPig.end(); itPig++) {
             (*itPig)->update();
         }
-        
+
 
         //Render all of the content at each frame. Remember you need to clear the screen each iteration or artefacts remain.
         window.clear(sf::Color(135, 206, 235)); // Sky Blue
@@ -80,15 +96,19 @@ int main() {
         ground.render(window);
         wall.render(window);
         plank.render(window);
-        bird.render(window);
+
+        for (std::list<std::shared_ptr<Bird>>::iterator itBird = birdType.begin(); itBird != birdType.end(); itBird++) {
+            (*itBird)->render(window);
+        }
 
         for (std::vector<std::shared_ptr<Pig>>::iterator itPig = vecPig.begin(); itPig != vecPig.end(); itPig++) {
             (*itPig)->render(window);
         }
-        
+
 
         window.display();
-    }
 
+
+    }
     return 0;
 }
