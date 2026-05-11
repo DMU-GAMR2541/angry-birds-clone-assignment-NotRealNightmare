@@ -10,7 +10,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{41FF0033-6732-3958-925B-39FEBE9D2248}</ProjectGuid>
+    <ProjectGuid>{1AF00160-3BFF-3082-960D-D151B942C9F8}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -46,13 +46,13 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\d844de776517c3996649d9126c017c9a\googletest-populate-mkdir.rule">
+    <CustomBuild Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\40e9c67526ff007cae1bf98f044582ba\googletest-populate-mkdir.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Creating directories for 'googletest-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-subbuild/googletest-populate-prefix/tmp/googletest-populate-mkdirs.cmake"
+"D:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-subbuild/googletest-populate-prefix/tmp/googletest-populate-mkdirs.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-mkdir"
+"D:\Program Files\CMake\bin\cmake.exe" -E touch D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -61,25 +61,25 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\Debug\googletest-populate-mkdir</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\Debug\googletest-populate-mkdir</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\d844de776517c3996649d9126c017c9a\googletest-populate-download.rule">
+    <CustomBuild Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\40e9c67526ff007cae1bf98f044582ba\googletest-populate-download.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing download step (download, verify and extract) for 'googletest-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd "H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps"
+cd D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps
 if %errorlevel% neq 0 goto :cmEnd
-H:
+D:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/download-googletest-populate.cmake"
+"D:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/download-googletest-populate.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/verify-googletest-populate.cmake"
+"D:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/verify-googletest-populate.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/extract-googletest-populate.cmake"
+"D:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/extract-googletest-populate.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-download"
+"D:\Program Files\CMake\bin\cmake.exe" -E touch D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -87,18 +87,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\download-googletest-populate.cmake;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\googletest-populate-urlinfo.txt;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\Debug\googletest-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\Debug\googletest-populate-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\download-googletest-populate.cmake;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\googletest-populate-urlinfo.txt;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\Debug\googletest-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\Debug\googletest-populate-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\d844de776517c3996649d9126c017c9a\googletest-populate-update.rule">
+    <CustomBuild Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\40e9c67526ff007cae1bf98f044582ba\googletest-populate-update.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No update step for 'googletest-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+"D:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-update"
+"D:\Program Files\CMake\bin\cmake.exe" -E touch D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-update
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -106,18 +106,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\googletest-populate-update-info.txt;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\Debug\googletest-populate-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\Debug\googletest-populate-update</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\googletest-populate-update-info.txt;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\Debug\googletest-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\Debug\googletest-populate-update</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\d844de776517c3996649d9126c017c9a\googletest-populate-patch.rule">
+    <CustomBuild Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\40e9c67526ff007cae1bf98f044582ba\googletest-populate-patch.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No patch step for 'googletest-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+"D:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-patch"
+"D:\Program Files\CMake\bin\cmake.exe" -E touch D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -125,23 +125,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\googletest-populate-patch-info.txt;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\Debug\googletest-populate-update;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\Debug\googletest-populate-patch</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\googletest-populate-patch-info.txt;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\Debug\googletest-populate-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\Debug\googletest-populate-patch</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\d844de776517c3996649d9126c017c9a\googletest-populate-configure.rule">
+    <CustomBuild Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\40e9c67526ff007cae1bf98f044582ba\googletest-populate-configure.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No configure step for 'googletest-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd "H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-build"
+cd D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-build
 if %errorlevel% neq 0 goto :cmEnd
-H:
+D:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+"D:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-configure"
+"D:\Program Files\CMake\bin\cmake.exe" -E touch D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -149,23 +149,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\tmp\googletest-populate-cfgcmd.txt;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\Debug\googletest-populate-patch;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\Debug\googletest-populate-configure</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\tmp\googletest-populate-cfgcmd.txt;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\Debug\googletest-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\Debug\googletest-populate-configure</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\d844de776517c3996649d9126c017c9a\googletest-populate-build.rule">
+    <CustomBuild Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\40e9c67526ff007cae1bf98f044582ba\googletest-populate-build.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No build step for 'googletest-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd "H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-build"
+cd D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-build
 if %errorlevel% neq 0 goto :cmEnd
-H:
+D:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+"D:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-build"
+"D:\Program Files\CMake\bin\cmake.exe" -E touch D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -173,23 +173,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\Debug\googletest-populate-configure;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\Debug\googletest-populate-build</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\Debug\googletest-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\Debug\googletest-populate-build</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\d844de776517c3996649d9126c017c9a\googletest-populate-install.rule">
+    <CustomBuild Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\40e9c67526ff007cae1bf98f044582ba\googletest-populate-install.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No install step for 'googletest-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd "H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-build"
+cd D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-build
 if %errorlevel% neq 0 goto :cmEnd
-H:
+D:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+"D:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-install"
+"D:\Program Files\CMake\bin\cmake.exe" -E touch D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -197,23 +197,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\Debug\googletest-populate-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\Debug\googletest-populate-install</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\Debug\googletest-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\Debug\googletest-populate-install</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\d844de776517c3996649d9126c017c9a\googletest-populate-test.rule">
+    <CustomBuild Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\40e9c67526ff007cae1bf98f044582ba\googletest-populate-test.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No test step for 'googletest-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd "H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-build"
+cd D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-build
 if %errorlevel% neq 0 goto :cmEnd
-H:
+D:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+"D:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-test"
+"D:\Program Files\CMake\bin\cmake.exe" -E touch D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-test
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -221,21 +221,21 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\Debug\googletest-populate-install;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\Debug\googletest-populate-test</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\Debug\googletest-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\Debug\googletest-populate-test</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\df972e282a72bb18680cfee7f1d34326\googletest-populate-complete.rule">
+    <CustomBuild Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\7b731b9656b526c9815f59a84022fb46\googletest-populate-complete.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Completed 'googletest-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-subbuild/CMakeFiles/Debug"
+"D:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-subbuild/CMakeFiles/Debug
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-subbuild/CMakeFiles/Debug/googletest-populate-complete"
+"D:\Program Files\CMake\bin\cmake.exe" -E touch D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-subbuild/CMakeFiles/Debug/googletest-populate-complete
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-done"
+"D:\Program Files\CMake\bin\cmake.exe" -E touch D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-done
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -243,13 +243,13 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\Debug\googletest-populate-install;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\Debug\googletest-populate-mkdir;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\Debug\googletest-populate-download;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\Debug\googletest-populate-update;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\Debug\googletest-populate-patch;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\Debug\googletest-populate-configure;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\Debug\googletest-populate-build;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\Debug\googletest-populate-test;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\Debug\googletest-populate-complete</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\Debug\googletest-populate-install;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\Debug\googletest-populate-mkdir;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\Debug\googletest-populate-download;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\Debug\googletest-populate-update;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\Debug\googletest-populate-patch;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\Debug\googletest-populate-configure;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\Debug\googletest-populate-build;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\src\googletest-populate-stamp\Debug\googletest-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\Debug\googletest-populate-complete</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\0ed58a7a8aa54be7058ae160e6261abb\googletest-populate.rule">
+    <CustomBuild Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\411f235b4567c77115d28a282d76d407\googletest-populate.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
@@ -259,18 +259,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\Debug\googletest-populate-complete;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\googletest-populate</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\Debug\googletest-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\googletest-populate</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeLists.txt">
+    <CustomBuild Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-subbuild/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-subbuild/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SH:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-subbuild" "-BH:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-subbuild" --check-stamp-file "H:/second_year/gamr2541/Assignment 1/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-subbuild/CMakeFiles/generate.stamp"
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-subbuild -BD:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-subbuild --check-stamp-file D:/Chankit/Uni/angry-birds-clone-assignment-NotRealNightmare/Build/_deps/googletest-subbuild/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -278,18 +278,19 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\download.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\extractfile.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\3.30.1\CMakeSystem.cmake;H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\tmp\googletest-populate-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\4.3.2\CMakeSystem.cmake;D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\googletest-populate-prefix\tmp\googletest-populate-mkdirs.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject\PatchInfo.txt.in;D:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject\RepositoryInfo.txt.in;D:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject\UpdateInfo.txt.in;D:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject\cfgcmd.txt.in;D:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject\download.cmake.in;D:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject\extractfile.cmake.in;D:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject\mkdirs.cmake.in;D:\Program Files\CMake\share\cmake-4.3\Modules\ExternalProject\shared_internal_commands.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\googletest-populate">
+    <None Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\googletest-populate">
     </None>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\ZERO_CHECK.vcxproj">
-      <Project>{48FBCB53-7655-3691-AF5C-DF7EFF813BE6}</Project>
+    <ProjectReference Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\ZERO_CHECK.vcxproj">
+      <Project>{6170F688-D078-306F-94CF-0EA4D1996702}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

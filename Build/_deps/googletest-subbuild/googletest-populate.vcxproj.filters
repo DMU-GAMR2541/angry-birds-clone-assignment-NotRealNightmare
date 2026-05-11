@@ -1,44 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\d844de776517c3996649d9126c017c9a\googletest-populate-mkdir.rule">
+    <CustomBuild Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\40e9c67526ff007cae1bf98f044582ba\googletest-populate-mkdir.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\d844de776517c3996649d9126c017c9a\googletest-populate-download.rule">
+    <CustomBuild Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\40e9c67526ff007cae1bf98f044582ba\googletest-populate-download.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\d844de776517c3996649d9126c017c9a\googletest-populate-update.rule">
+    <CustomBuild Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\40e9c67526ff007cae1bf98f044582ba\googletest-populate-update.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\d844de776517c3996649d9126c017c9a\googletest-populate-patch.rule">
+    <CustomBuild Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\40e9c67526ff007cae1bf98f044582ba\googletest-populate-patch.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\d844de776517c3996649d9126c017c9a\googletest-populate-configure.rule">
+    <CustomBuild Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\40e9c67526ff007cae1bf98f044582ba\googletest-populate-configure.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\d844de776517c3996649d9126c017c9a\googletest-populate-build.rule">
+    <CustomBuild Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\40e9c67526ff007cae1bf98f044582ba\googletest-populate-build.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\d844de776517c3996649d9126c017c9a\googletest-populate-install.rule">
+    <CustomBuild Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\40e9c67526ff007cae1bf98f044582ba\googletest-populate-install.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\d844de776517c3996649d9126c017c9a\googletest-populate-test.rule">
+    <CustomBuild Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\40e9c67526ff007cae1bf98f044582ba\googletest-populate-test.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\df972e282a72bb18680cfee7f1d34326\googletest-populate-complete.rule">
+    <CustomBuild Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\7b731b9656b526c9815f59a84022fb46\googletest-populate-complete.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\0ed58a7a8aa54be7058ae160e6261abb\googletest-populate.rule">
+    <CustomBuild Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\411f235b4567c77115d28a282d76d407\googletest-populate.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeLists.txt" />
+    <CustomBuild Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\googletest-populate" />
+    <None Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\googletest-subbuild\CMakeFiles\googletest-populate" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{99CF4A29-0A80-3D47-8E5C-7B9FF4959537}</UniqueIdentifier>
+      <UniqueIdentifier>{405CE14C-DDCE-3660-9A58-6EB5A2A31B22}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
