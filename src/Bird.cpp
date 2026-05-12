@@ -24,6 +24,7 @@ Bird::Bird(b2World& world, float xPos, float yPos, float radius, std::string str
 			//launchForceX = -3.0f;
 			body->SetGravityScale(1.0f);
 			sp_Sprite.setTextureRect(sf::IntRect(770, 173, 65, 63));
+			sp_Sprite.setScale(0.5f, 0.5f);
 			break;
 		case BirdType::Yellow:
 			b2_fixtureDef.density = 0.5f;		// lighter
@@ -32,6 +33,7 @@ Bird::Bird(b2World& world, float xPos, float yPos, float radius, std::string str
 			//launchForceY = -7.0f;
 			body->SetGravityScale(0.5f);		// less gravity
 			sp_Sprite.setTextureRect(sf::IntRect(150, 767, 82, 76));
+			sp_Sprite.setScale(0.5f, 0.5f);
 			break;
 		case BirdType::Black:
 			b2_fixtureDef.density = 3.0f;		// heavier
@@ -40,13 +42,11 @@ Bird::Bird(b2World& world, float xPos, float yPos, float radius, std::string str
 			//launchForceY = -4.0f;
 			body->SetGravityScale(1.5f);		// more gravity
 			sp_Sprite.setTextureRect(sf::IntRect(721, 13, 93, 124));
+			sp_Sprite.setScale(0.4, 0.4f);
 			break;
 
 	}
 	body->CreateFixture(&b2_fixtureDef);
-	float scaleX = (radius * 2) / sp_Sprite.getTextureRect().width;
-	float scaleY = (radius * 2) / sp_Sprite.getTextureRect().height;
-	sp_Sprite.setScale(scaleX, scaleY);
 	sp_Sprite.setOrigin(sp_Sprite.getTextureRect().width / 2.0f, sp_Sprite.getTextureRect().height / 2.0f);
 }
 

@@ -30,6 +30,9 @@
     <ClInclude Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\include\Catapult.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\include\ContactListener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\include\DynamicObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>

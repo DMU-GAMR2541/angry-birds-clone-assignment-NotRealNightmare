@@ -14,6 +14,8 @@ protected:
 	b2BodyDef b2_bodyDef;
 	b2PolygonShape b2_shape;
 	b2FixtureDef b2_fixtureDef;
+	sf::Texture te_Texture;
+	sf::Sprite sp_Sprite;
 	std::string str_sprite;
 
 public:

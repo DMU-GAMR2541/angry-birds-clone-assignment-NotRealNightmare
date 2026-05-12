@@ -5,6 +5,7 @@
 #include "Bird.h"
 #include "Pig.h"
 #include "Plank.h"
+#include "Catapult.h"
 #include "ContactListener.h"
 #include <memory>
 #include <vector>
@@ -71,7 +72,9 @@ int main() {
         vecPig.push_back(pig);
     }
 
-   
+    
+    Catapult catapult(world, 50.0f, 450.0f, 10.0f, 60.0f, "../assets/Ang_Birds/Slingshot.png");
+
 
     // --- 7. MAIN LOOP ---
     while (window.isOpen()) {
@@ -92,12 +95,14 @@ int main() {
                     }
                 }
             }
+           
         }
 
 
         // Update Physics
         world.Step(1.0f / 60.0f, 8, 3);
 
+        
 
         // Check contact listener for hit pigs and destroy them
         std::set<uintptr_t> s_p = contactListener.getPointer();
@@ -130,7 +135,8 @@ int main() {
         for (std::vector<std::shared_ptr<Pig>>::iterator itPig = vecPig.begin(); itPig != vecPig.end(); itPig++) {
             (*itPig)->update();
         }
-
+        
+        catapult.update();
 
         //Render all of the content at each frame. Remember you need to clear the screen each iteration or artefacts remain.
         window.clear(sf::Color(135, 206, 235)); // Sky Blue
@@ -150,6 +156,8 @@ int main() {
             (*itPig)->render(window);
         }
 
+        
+        catapult.render(window);
 
         window.display();
 
