@@ -1,16 +1,18 @@
 #include "Catapult.h"
 
-Catapult::Catapult(b2World& world, float xPos, float yPos, float halfWidth, float halfHeight, std::string str_sprite)
-    : StaticObject(world, b2Vec2(xPos / SCALE, yPos / SCALE), halfWidth, halfHeight, str_sprite)
+Catapult::Catapult(b2World& world, float xPos, float yPos, float halfX, float halfY, std::string str_sprite)
+    : DynamicObject(world, b2Vec2(xPos, yPos), str_sprite) 
 {
     this->xPos = xPos;
     this->yPos = yPos;
-    this->halfWidth = halfWidth;
-    this->halfHeight = halfHeight;
+    this->halfX = halfX;
+    this->halfY = halfY;
+    this->shotPos = sf::Vector2f(xPos - 5.0f, yPos - 50.0f);
 
-    sp_Sprite.setPosition(xPos, yPos);
-    sp_Sprite.setOrigin(te_Texture.getSize().x / 2.0f, te_Texture.getSize().y / 2.0f);
-    sp_Sprite.setScale(0.7f, 0.7f);
+    b2_bodyDef.type = b2_staticBody;
+    b2_bodyDef.position.Set(xPos / SCALE, yPos / SCALE);
+    body = world.CreateBody(&b2_bodyDef);
+    b2_polygonShape.SetAsBox(halfX / SCALE, halfY / SCALE);
 }
 
 void Catapult::render(sf::RenderWindow& window) {
@@ -18,5 +20,6 @@ void Catapult::render(sf::RenderWindow& window) {
 }
 
 void Catapult::update() {
-    
+    sp_Sprite.setPosition(body->GetPosition().x * SCALE, body->GetPosition().y * SCALE);
+    sp_Sprite.setRotation(body->GetAngle() * (180.0f / PI));
 }

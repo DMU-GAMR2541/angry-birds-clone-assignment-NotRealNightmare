@@ -13,6 +13,7 @@ protected:
 	b2BodyDef b2_bodyDef;
 	b2FixtureDef b2_fixtureDef;
 	b2CircleShape b2_circleShape;
+	b2PolygonShape b2_polygonShape;
 	sf::Texture te_Texture;
 	sf::Sprite sp_Sprite;
 	std::string str_sprite;

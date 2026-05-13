@@ -1,28 +1,61 @@
 #include "Pig.h"
 #include <iostream>
 
-Pig::Pig(b2World& world, float xPos, float yPos, float radius, std::string str_sprite, int Health)
+Pig::Pig(b2World& world, float xPos, float yPos, float radius, std::string str_sprite, PigType pigType, int Health)
 	: DynamicObject(world, b2Vec2(xPos, yPos), str_sprite), enemy(Health)
 {
 	this->xPos = xPos;
 	this->yPos = yPos;
 	this->radius = radius;
-
-	/*b2_bodyDef.position.Set(xPos / SCALE, yPos / SCALE);
-	b2_bodyDef.type = b2_dynamicBody;
-	body = world.CreateBody(&b2_bodyDef);*/
+	this->pigType = pigType;
+	
 
 	b2_circleShape.m_radius = radius / SCALE;
-
 	b2_fixtureDef.shape = &b2_circleShape;
-	b2_fixtureDef.density = 1.0f;
-	b2_fixtureDef.friction = 0.5f;
-	b2_fixtureDef.restitution = 0.6f;
+
+	switch (pigType) {
+	case PigType::smallPig:
+		b2_fixtureDef.density = 1.0f;
+		b2_fixtureDef.friction = 0.5f;
+		b2_fixtureDef.restitution = 0.5f;
+
+		body->SetGravityScale(1.0f);
+		sp_Sprite.setTextureRect(sf::IntRect(50, 65, 52, 49));
+		sp_Sprite.setScale(0.8f, 0.8f);
+		break;
+	case PigType::mediumPig:
+		b2_fixtureDef.density = 1.0f;
+		b2_fixtureDef.friction = 0.5f;
+		b2_fixtureDef.restitution = 0.5f;
+
+		body->SetGravityScale(1.0f);
+		sp_Sprite.setTextureRect(sf::IntRect(49, 120, 82, 80));
+		sp_Sprite.setScale(0.7f, 0.7f);
+		break;
+	case PigType::corporalPig:
+		b2_fixtureDef.density = 1.0f;
+		b2_fixtureDef.friction = 0.5f;		
+		b2_fixtureDef.restitution = 0.6f;
+	
+		body->SetGravityScale(1.0f);		
+		sp_Sprite.setTextureRect(sf::IntRect(51, 208, 97, 87));
+		sp_Sprite.setScale(0.7f, 0.7f);
+		break;
+	case PigType::kingPing:
+		b2_fixtureDef.density = 1.0f;
+		b2_fixtureDef.friction = 0.5f;		
+		b2_fixtureDef.restitution = 0.6f;
+		
+		body->SetGravityScale(1.0f);		
+		sp_Sprite.setTextureRect(sf::IntRect(44, 523, 130, 156));
+		sp_Sprite.setScale(0.4f, 0.4f);
+		break;
+
+	}
+	
 	body->CreateFixture(&b2_fixtureDef);
-
-
-	// scales the pig sprite
-	sp_Sprite.setScale(0.73f, 0.73f);
+	sp_Sprite.setOrigin(sp_Sprite.getTextureRect().width / 2.0f, sp_Sprite.getTextureRect().height / 2.0f);
+	
 }
 
 void Pig::render(sf::RenderWindow& window) {
