@@ -1,44 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-subbuild\CMakeFiles\4353a2bd6204198d43f87807282eb759\sfml-populate-mkdir.rule">
+    <CustomBuild Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-subbuild\CMakeFiles\f319071c055db320408a0d0b3800b6ff\sfml-populate-mkdir.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-subbuild\CMakeFiles\4353a2bd6204198d43f87807282eb759\sfml-populate-download.rule">
+    <CustomBuild Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-subbuild\CMakeFiles\f319071c055db320408a0d0b3800b6ff\sfml-populate-download.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-subbuild\CMakeFiles\4353a2bd6204198d43f87807282eb759\sfml-populate-update.rule">
+    <CustomBuild Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-subbuild\CMakeFiles\f319071c055db320408a0d0b3800b6ff\sfml-populate-update.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-subbuild\CMakeFiles\4353a2bd6204198d43f87807282eb759\sfml-populate-patch.rule">
+    <CustomBuild Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-subbuild\CMakeFiles\f319071c055db320408a0d0b3800b6ff\sfml-populate-patch.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-subbuild\CMakeFiles\4353a2bd6204198d43f87807282eb759\sfml-populate-configure.rule">
+    <CustomBuild Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-subbuild\CMakeFiles\f319071c055db320408a0d0b3800b6ff\sfml-populate-configure.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-subbuild\CMakeFiles\4353a2bd6204198d43f87807282eb759\sfml-populate-build.rule">
+    <CustomBuild Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-subbuild\CMakeFiles\f319071c055db320408a0d0b3800b6ff\sfml-populate-build.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-subbuild\CMakeFiles\4353a2bd6204198d43f87807282eb759\sfml-populate-install.rule">
+    <CustomBuild Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-subbuild\CMakeFiles\f319071c055db320408a0d0b3800b6ff\sfml-populate-install.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-subbuild\CMakeFiles\4353a2bd6204198d43f87807282eb759\sfml-populate-test.rule">
+    <CustomBuild Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-subbuild\CMakeFiles\f319071c055db320408a0d0b3800b6ff\sfml-populate-test.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-subbuild\CMakeFiles\1454c7a76e24f5baad71ce493bfd5c66\sfml-populate-complete.rule">
+    <CustomBuild Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-subbuild\CMakeFiles\a4d0b12f8e690c4c5b047566f5c4d7e4\sfml-populate-complete.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-subbuild\CMakeFiles\40b3f4bcb0ab9aa9ebb343e209a86a61\sfml-populate.rule">
+    <CustomBuild Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-subbuild\CMakeFiles\fa96a957332252fcff611c6061f41d76\sfml-populate.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-subbuild\CMakeLists.txt" />
+    <CustomBuild Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-subbuild\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="H:\second_year\gamr2541\Assignment 1\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-subbuild\CMakeFiles\sfml-populate" />
+    <None Include="D:\Chankit\Uni\angry-birds-clone-assignment-NotRealNightmare\Build\_deps\sfml-subbuild\CMakeFiles\sfml-populate" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{9C775962-515F-3C05-B9FA-64EDC05F45F2}</UniqueIdentifier>
+      <UniqueIdentifier>{14DC16C1-D5E0-3C51-A552-1AE550B1C996}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

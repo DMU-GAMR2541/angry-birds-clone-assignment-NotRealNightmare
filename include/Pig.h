@@ -7,7 +7,7 @@ enum class PigType {
 	smallPig,
 	mediumPig,
 	corporalPig,
-	kingPing
+	kingPig
 };
 
 class Pig : public DynamicObject {
@@ -17,6 +17,7 @@ private:
 	float radius;
 	PigType pigType;
 	Enemy enemy;
+	bool markedForDeletion = false;
 
 public:
 	Pig() = default;
@@ -25,8 +26,11 @@ public:
 
 	void render(sf::RenderWindow& window) override;
 	void update() override;
-	void takeDamage(int damage);
-	bool isDestroyed();
 
+	void takeDamage(int damage) { enemy.takeDamage(damage); }
+	int getHealth() const { return enemy.getHealth(); }
+	bool checkIfPopped() const { return enemy.checkIfPopped(); }
+	void markForDeletion() { markedForDeletion = true; }
+	bool isMarkedForDeletion() const { return markedForDeletion; }
 };
 

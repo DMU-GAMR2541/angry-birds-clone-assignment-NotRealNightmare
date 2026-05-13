@@ -41,7 +41,7 @@ Bird::Bird(b2World& world, float xPos, float yPos, float radius, float shotPower
 			sp_Sprite.setScale(0.5f, 0.5f);
 			break;
 		case BirdType::Bomb:
-			b2_fixtureDef.density = 3.0f;		// heavier
+			b2_fixtureDef.density = 2.0f;		// heavier
 			b2_fixtureDef.restitution = 0.1f;
 		
 			body->SetGravityScale(1.5f);		// more gravity
@@ -79,6 +79,7 @@ void Bird::dragging() {
 
 void Bird::launch(sf::Vector2f shotPos) {
 	isDragging = false;
+	isLaunched = true;
 	body->SetGravityScale(1.0f);
 	sf::Vector2f targetPos{ body->GetPosition().x * SCALE, body->GetPosition().y * SCALE };
 	sf::Vector2f launchVector = (targetPos - shotPos) / SCALE;
@@ -122,4 +123,39 @@ std::vector<std::shared_ptr<Bird>> Bird::theBluesAbility(b2World& world) {
 	}
 
 	return newBirds;
+}
+
+std::vector<std::shared_ptr<Bird>> Bird::bombAbility(b2World& world, float DestuctionTime, std::vector<std::shared_ptr<Pig>>& vecPig) {
+	std::vector<std::shared_ptr<Bird>> Bomb;
+
+	if (abilityUsed) return Bomb;
+	abilityUsed = true;
+
+	float bx = body->GetPosition().x * SCALE;
+	float by = body->GetPosition().y * SCALE;
+
+	float explosionRadius = 150.0f; // pixels
+	float explosionForce = 20.0f;
+
+	// loop through pigs and apply impulse + damage if close enough
+	for (auto& pig : vecPig) {
+		float dx = pig->getBody()->GetPosition().x * SCALE - bx;
+		float dy = pig->getBody()->GetPosition().y * SCALE - by;
+		float distance = std::sqrt(dx * dx + dy * dy);
+
+		if (distance < explosionRadius) {
+			pig->getBody()->ApplyLinearImpulseToCenter(b2Vec2(dx / SCALE, dy / SCALE), true);
+			pig->takeDamage(100);
+		}
+	}
+
+
+	auto BombEffect = std::make_shared<Bird>(world, bx, by, 50, shotPower, "../assets/Ang_Birds/bombExplosion.png", BirdType::Bomb);
+	BombEffect->setDestructionTime(DestuctionTime);
+	BombEffect->getBody()->GetUserData().pointer = 100;
+	BombEffect->abilityUsed = true;
+
+	Bomb.push_back(BombEffect);
+	BombEffect->resetTextureRect();
+	return Bomb;
 }

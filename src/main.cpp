@@ -37,14 +37,26 @@ int main() {
 
     // PLANK
     //Rather than having an immovable wall, we can use the dynamic body type to create one that can have velocity etc.
-    Plank plank(world, 550.0f, 550.0f, 10.0f, 60.0f, "../assets/Ang_Birds/plank1.png");
+    //Plank plank(world, 550.0f, 550.0f, 10.0f, 60.0f, "../assets/Ang_Birds/plank1.png");
+    
+    // left vertical plank
+    Plank pV1(world, 500.0f, 530.0f, 8.0f, 40.0f, "../assets/Ang_Birds/plank1.png");
+    // right vertical plank
+    Plank pV2(world, 600.0f, 530.0f, 8.0f, 40.0f, "../assets/Ang_Birds/plank1.png");
+    // horizontal plank across top of the two verticals
+    Plank pH(world, 550.0f, 482.0f, 58.0f, 15.0f, "../assets/Ang_Birds/plank2.png");
+    // top of horizontal left vertical plank
+    Plank pTopV1(world, 500.0f, 420.0f, 8.0f, 28.0f, "../assets/Ang_Birds/plank1.png");
+    // top of horizontal right vertical plank
+    Plank pTopV2(world, 600.0f, 420.0f, 8.0f, 28.0f, "../assets/Ang_Birds/plank1.png");
+
 
     // GROUND (Non-interactable)
     // WALL (Non-interactable)
     std::vector<std::shared_ptr<Non_Interactable>> vecNonInteractable;
     vecNonInteractable.push_back(std::make_shared<Non_Interactable>(world, b2Vec2(400.0f / SCALE, 590.0f / SCALE), 400.0f, 10.0f, sf::Color(34, 139, 34), ""));  // ground
     vecNonInteractable.push_back(std::make_shared<Non_Interactable>(world, b2Vec2(750.0f / SCALE, 500.0f / SCALE), 10.0f, 80.0f, sf::Color::Red, ""));  // wall
-
+    vecNonInteractable.push_back(std::make_shared<Non_Interactable>(world, b2Vec2(550.0f / SCALE, 325.0f / SCALE), 40.0f, 8.0f, sf::Color(139, 69, 19), ""));
 
     // BIRD
     std::list<std::shared_ptr<Bird>> birdType;
@@ -65,6 +77,9 @@ int main() {
     }
 
     // PIG
+    float xPositions[4] = { 550.0f, 550.0f, 390.0f, 550.0f };
+    float yPositions[4] = { 455.0f, 510.0f, 555.0f, 310.0f };
+
     std::vector<std::shared_ptr<Pig>> vecPig;
     for (int i = 0; i < 4; i++) {
         PigType type;
@@ -72,18 +87,30 @@ int main() {
         if (i == 0) { type = PigType::smallPig; }
         else if (i == 1) { type = PigType::mediumPig; }
         else if (i == 2) { type = PigType::corporalPig; }
-        else { type = PigType::kingPing; }
+        else { type = PigType::kingPig; }
 
-        auto pig = std::make_shared<Pig>(world, 200.0f + (i * 120.0f), 455.0f, 20.0f, "../assets/Ang_Birds/Pigs.png", type, 100);
+        int health;
+        if (i == 0) health = 50;
+        else if (i == 1) health = 100;
+        else if (i == 2) health = 150;
+        else health = 200;
+
+        float radius;
+        if (i == 0)      radius = 12.0f;
+        else if (i == 1) radius = 17.0f;
+        else if (i == 2) radius = 20.0f;
+        else             radius = 25.0f;
+
+        auto pig = std::make_shared<Pig>(world, xPositions[i], yPositions[i], radius, "../assets/Ang_Birds/Pigs.png", type, health);
         // Give each pig a unique ID via user data (start from 10 so it's > 2)
         pig->getBody()->GetUserData().pointer = 3 + i;
         vecPig.push_back(pig);
     }
 
     
-    Catapult catapult(world, 150.0f, 520.0f, 10.0f, 60.0f, "../assets/Ang_Birds/Slingshot.png");
+    Catapult catapult(world, 200.0f, 540.0f, 10.0f, 60.0f, "../assets/Ang_Birds/Slingshot.png");
 
-
+    std::shared_ptr<Bird> lastLaunchedBird = nullptr;
     // --- 7. MAIN LOOP ---
     while (window.isOpen()) {
         sf::Event event;
@@ -92,48 +119,52 @@ int main() {
                 window.close();
 
             if (event.type == sf::Event::KeyPressed) {
-                if (!birdType.empty()) {
-                    auto& currentBird = birdType.front();
-                    
-                    if (event.key.code == sf::Keyboard::B) {
-                        world.DestroyBody(birdType.front()->getBody());
-                        birdType.pop_front();
+                if (event.key.code == sf::Keyboard::Space && lastLaunchedBird != nullptr) {
+
+                    if (lastLaunchedBird->getBirdType() == BirdType::Chuck) {
+                        lastLaunchedBird->chuckAbility(b2Vec2(6.0f, 0.0f));
                     }
 
-                    if (event.key.code == sf::Keyboard::Space) {
-                        if (birdType.front()->getBirdType() == BirdType::Chuck) {
-                            birdType.front()->chuckAbility(b2Vec2 (6.0f, 0.0f));
+                    if (lastLaunchedBird->getBirdType() == BirdType::theBlues) {
+                        auto clones = lastLaunchedBird->theBluesAbility(world);
+                        for (auto& clone : clones) {
+                            birdType.push_back(clone);
                         }
-                        if (birdType.front()->getBirdType() == BirdType::theBlues) {
-                            auto clones = birdType.front()->theBluesAbility(world);
-                            for (auto& clone : clones) {
-                                birdType.push_front(clone);
-                            }
+                    }
+
+                    if (lastLaunchedBird->getBirdType() == BirdType::Bomb && !lastLaunchedBird->hasUsedAbility()) {
+                        auto Bomb = lastLaunchedBird->bombAbility(world, 1.5f, vecPig);
+                        world.DestroyBody(lastLaunchedBird->getBody());
+                        birdType.remove(lastLaunchedBird);
+                        lastLaunchedBird = nullptr;
+                        for (auto& bird : Bomb) {
+                            birdType.push_front(bird);
                         }
                     }
                 }
             }
             if (event.type == sf::Event::MouseButtonPressed) {
-                if (event.mouseButton.button == sf::Mouse::Left) {
-                    if (!birdType.empty()) {
-                        birdType.front()->dragging();
-                    }
+                if (!birdType.empty() && !birdType.front()->getIsLaunched()) {
+                    birdType.front()->dragging();
                 }
             }
-
-            // Mouse released — launch bird
             if (event.type == sf::Event::MouseButtonReleased) {
                 if (event.mouseButton.button == sf::Mouse::Left) {
-                    if (!birdType.empty() && birdType.front()->getDragging()) {
+                    if (!birdType.empty() && birdType.front()->getDragging() && !birdType.front()->getIsLaunched()) {
                         birdType.front()->launch(catapult.getShotPos());
+                        birdType.front()->setDestructionTime(3.0f);
+
+                        lastLaunchedBird = birdType.front();
+
+                        auto launchedBird = birdType.front();
+                        birdType.pop_front();
+                        birdType.push_back(launchedBird);
                     }
                 }
             }
-           
         }
 
-        if (!birdType.empty() && birdType.front()->getDragging()) {
-
+        if (!birdType.empty() && birdType.front()->getDragging() && !birdType.front()->getIsLaunched()) {
             // gets position of the mouse in sfml pixels.
             sf::Vector2i mousePxl = sf::Mouse::getPosition(window);
             // takes x and y position of the mouse.
@@ -142,15 +173,10 @@ int main() {
             // stores the drag of the mouse position and the start position.
             sf::Vector2f dragVec(mouseWorld - catapult.getShotPos());
 
-            // stops player dragging towards the right
-            if (dragVec.x > 0) {
-                dragVec.x = 0;
-            }
-
-            // stops player dragging upwards
-            if (dragVec.y < 0) {
-                dragVec.y = 0;
-            }
+            // will stop players dragging towards the right
+            // will stop players dragging upwards
+            if (dragVec.x > 0) dragVec.x = 0;
+            //if (dragVec.y < -30.0f) dragVec.y = -30.0f;
 
             // makes a distance for how much you can drag, preventing player from dragging out of the screen.
             float length = std::sqrt(dragVec.x * dragVec.x + dragVec.y * dragVec.y);
@@ -171,31 +197,53 @@ int main() {
         // Update Physics
         world.Step(1.0f / 60.0f, 8, 3);
 
-        
-
         // Check contact listener for hit pigs and destroy them
-        std::set<uintptr_t> s_p = contactListener.getPointer();
+        std::set<uintptr_t>& s_p = contactListener.s_ptr;
         for (auto itPig = vecPig.begin(); itPig != vecPig.end(); ) {
+
             uintptr_t currentPigID = (*itPig)->getBody()->GetUserData().pointer;
 
-            // Check if this pig's ID exists in the hit list
             if (s_p.find(currentPigID) != s_p.end()) {
-                std::cout << currentPigID << " Destroyed" << std::endl;
+                if (!(*itPig)->isMarkedForDeletion()) {
+                    std::cout << "Pig has: " << (*itPig)->getHealth() << "  Health" << std::endl;
+                    
+                    Pig* pigPtr = dynamic_cast<Pig*>((*itPig).get());
+                    if (pigPtr) {
+                        pigPtr->takeDamage(50);
+                    }
 
-                // Remove from Box2D world first
-                world.DestroyBody((*itPig)->getBody());
-
-                // Update iterator by catching return value of erase
-                itPig = vecPig.erase(itPig);
+                    s_p.erase(currentPigID);
+                    if ((*itPig)->checkIfPopped()) {
+                        std::cout << currentPigID << " Destroyed" << std::endl;
+                        (*itPig)->markForDeletion();
+                        world.DestroyBody((*itPig)->getBody());
+                        itPig = vecPig.erase(itPig);
+                        continue;
+                    }
+                }
+                ++itPig;
             }
             else {
-                // Only increment if we didn't erase anything
                 ++itPig;
             }
         }
+        for (auto itBird = birdType.begin(); itBird != birdType.end(); ) {
+            if ((*itBird)->shouldDelete()) {
+                world.DestroyBody((*itBird)->getBody());
+                itBird = birdType.erase(itBird);
+            }
+            else {
+                ++itBird;
+            }
+        }
 
+        //plank.update();
+        pV1.update();
+        pV2.update();
+        pH.update();
+        pTopV1.update();
+        pTopV2.update();
 
-        plank.update();
         catapult.update();
 
         for (std::list<std::shared_ptr<Bird>>::iterator itBird = birdType.begin(); itBird != birdType.end(); itBird++) {
@@ -205,14 +253,19 @@ int main() {
         for (std::vector<std::shared_ptr<Pig>>::iterator itPig = vecPig.begin(); itPig != vecPig.end(); itPig++) {
             (*itPig)->update();
         }
-        
-        
+
+
 
         //Render all of the content at each frame. Remember you need to clear the screen each iteration or artefacts remain.
         window.clear(sf::Color(135, 206, 235)); // Sky Blue
 
-    
-        plank.render(window);
+
+        //plank.render(window);
+        pV1.render(window);
+        pV2.render(window);
+        pH.render(window);
+        pTopV1.render(window);
+        pTopV2.render(window);
 
         for (std::vector<std::shared_ptr<Non_Interactable>>::iterator itNonInteractable = vecNonInteractable.begin(); itNonInteractable != vecNonInteractable.end(); itNonInteractable++) {
             (*itNonInteractable)->render(window);
@@ -226,12 +279,12 @@ int main() {
             (*itPig)->render(window);
         }
 
-        
+
         catapult.render(window);
 
         window.display();
 
-
     }
+
     return 0;
 }

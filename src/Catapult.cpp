@@ -13,6 +13,8 @@ Catapult::Catapult(b2World& world, float xPos, float yPos, float halfX, float ha
     b2_bodyDef.position.Set(xPos / SCALE, yPos / SCALE);
     body = world.CreateBody(&b2_bodyDef);
     b2_polygonShape.SetAsBox(halfX / SCALE, halfY / SCALE);
+
+    sp_Sprite.setScale(0.4f, 0.4f);
 }
 
 void Catapult::render(sf::RenderWindow& window) {

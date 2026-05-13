@@ -15,9 +15,9 @@ Pig::Pig(b2World& world, float xPos, float yPos, float radius, std::string str_s
 
 	switch (pigType) {
 	case PigType::smallPig:
-		b2_fixtureDef.density = 1.0f;
-		b2_fixtureDef.friction = 0.5f;
-		b2_fixtureDef.restitution = 0.5f;
+		b2_fixtureDef.density = 0.5f;
+		b2_fixtureDef.friction = 0.3f;
+		b2_fixtureDef.restitution = 0.7f;
 
 		body->SetGravityScale(1.0f);
 		sp_Sprite.setTextureRect(sf::IntRect(50, 65, 52, 49));
@@ -25,7 +25,7 @@ Pig::Pig(b2World& world, float xPos, float yPos, float radius, std::string str_s
 		break;
 	case PigType::mediumPig:
 		b2_fixtureDef.density = 1.0f;
-		b2_fixtureDef.friction = 0.5f;
+		b2_fixtureDef.friction = 0.4f;
 		b2_fixtureDef.restitution = 0.5f;
 
 		body->SetGravityScale(1.0f);
@@ -33,20 +33,20 @@ Pig::Pig(b2World& world, float xPos, float yPos, float radius, std::string str_s
 		sp_Sprite.setScale(0.7f, 0.7f);
 		break;
 	case PigType::corporalPig:
-		b2_fixtureDef.density = 1.0f;
+		b2_fixtureDef.density = 2.0f;
 		b2_fixtureDef.friction = 0.5f;		
-		b2_fixtureDef.restitution = 0.6f;
+		b2_fixtureDef.restitution = 0.3f;
 	
 		body->SetGravityScale(1.0f);		
 		sp_Sprite.setTextureRect(sf::IntRect(51, 208, 97, 87));
 		sp_Sprite.setScale(0.7f, 0.7f);
 		break;
-	case PigType::kingPing:
-		b2_fixtureDef.density = 1.0f;
-		b2_fixtureDef.friction = 0.5f;		
-		b2_fixtureDef.restitution = 0.6f;
+	case PigType::kingPig:
+		b2_fixtureDef.density = 4.0f;
+		b2_fixtureDef.friction = 0.8f;		
+		b2_fixtureDef.restitution = 0.1f;
 		
-		body->SetGravityScale(1.0f);		
+		body->SetGravityScale(1.2f);		
 		sp_Sprite.setTextureRect(sf::IntRect(44, 523, 130, 156));
 		sp_Sprite.setScale(0.4f, 0.4f);
 		break;
@@ -69,13 +69,4 @@ void Pig::update() {
 	sp_Sprite.setRotation(body->GetAngle() * (180.0f / PI));
 }
 
-void Pig::takeDamage(int damage) {
-	enemy.takeDamage(damage);
-	if (enemy.checkIfPopped()) {
-		std::cout << "Pig Destroyed!" << std::endl;
-	}
-}
 
-bool Pig::isDestroyed() {
-	return enemy.checkIfPopped();
-}
