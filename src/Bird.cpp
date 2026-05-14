@@ -41,10 +41,10 @@ Bird::Bird(b2World& world, float xPos, float yPos, float radius, float shotPower
 			sp_Sprite.setScale(0.5f, 0.5f);
 			break;
 		case BirdType::Bomb:
-			b2_fixtureDef.density = 2.0f;		// heavier
-			b2_fixtureDef.restitution = 0.1f;
+			b2_fixtureDef.density = 1.0f;		// heavier
+			b2_fixtureDef.restitution = 0.5f;
 		
-			body->SetGravityScale(1.5f);		// more gravity
+			body->SetGravityScale(1.2f);		// more gravity
 			sp_Sprite.setTextureRect(sf::IntRect(721, 13, 93, 124));
 			sp_Sprite.setScale(0.4, 0.4f);
 			break;

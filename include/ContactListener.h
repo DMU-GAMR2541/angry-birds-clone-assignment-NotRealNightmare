@@ -20,9 +20,17 @@ public:
         b2Fixture* fixtureA = contact->GetFixtureA();
         b2Fixture* fixtureB = contact->GetFixtureB();
 
+        uintptr_t ptrA = fixtureA->GetBody()->GetUserData().pointer;
+        uintptr_t ptrB = fixtureB->GetBody()->GetUserData().pointer;
+
         if (fixtureA->GetBody()->GetUserData().pointer == 100 && fixtureB->GetBody()->GetUserData().pointer > 2) {
             s_ptr.insert(fixtureB->GetBody()->GetUserData().pointer);
             std::cout << fixtureA->GetBody()->GetUserData().pointer << " and " << fixtureB->GetBody()->GetUserData().pointer << " hit " << std::endl;
+        }
+
+        if (ptrB == 100 && ptrA > 2) {
+            s_ptr.insert(ptrA);
+            std::cout << ptrB << " and " << ptrA << " hit" << std::endl;
         }
     }
 

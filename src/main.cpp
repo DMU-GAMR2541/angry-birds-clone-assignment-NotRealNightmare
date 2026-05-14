@@ -11,6 +11,7 @@
 #include <vector>
 #include <list>
 #include <set>
+#include "UI.h"
 
 int main() {
     // --- 1. WINDOW SETUP ---
@@ -22,6 +23,26 @@ int main() {
 
     //Can set a definition for PI.
     const float PI = 3.1415927;
+
+    UI loadingScreen("../assets/Ang_Birds/LoadingScreen.png", 0.0f, 0.0f);
+
+
+    bool gameStarted = false;
+    while (!gameStarted && window.isOpen()) {
+        sf::Event event;
+        while (window.pollEvent(event)) {
+            if (event.type == sf::Event::Closed)
+                window.close();
+            if (event.type == sf::Event::KeyPressed) {
+                if (event.key.code == sf::Keyboard::Enter) {
+                    gameStarted = true;
+                }
+            }
+        }
+        window.clear();
+        loadingScreen.render(window);
+        window.display();
+    }
 
     //setup world.
     b2Vec2 b2_gravity(0.0f, 9.8f); // Earth-like gravity
@@ -39,17 +60,17 @@ int main() {
     //Rather than having an immovable wall, we can use the dynamic body type to create one that can have velocity etc.
     //Plank plank(world, 550.0f, 550.0f, 10.0f, 60.0f, "../assets/Ang_Birds/plank1.png");
     
-    // left vertical plank
-    Plank pV1(world, 500.0f, 530.0f, 8.0f, 40.0f, "../assets/Ang_Birds/plank1.png");
-    // right vertical plank
-    Plank pV2(world, 600.0f, 530.0f, 8.0f, 40.0f, "../assets/Ang_Birds/plank1.png");
-    // horizontal plank across top of the two verticals
-    Plank pH(world, 550.0f, 482.0f, 58.0f, 15.0f, "../assets/Ang_Birds/plank2.png");
-    // top of horizontal left vertical plank
-    Plank pTopV1(world, 500.0f, 420.0f, 8.0f, 28.0f, "../assets/Ang_Birds/plank1.png");
-    // top of horizontal right vertical plank
-    Plank pTopV2(world, 600.0f, 420.0f, 8.0f, 28.0f, "../assets/Ang_Birds/plank1.png");
+    std::vector<std::shared_ptr<Plank>> vecPlank;
 
+    vecPlank.push_back(std::make_shared<Plank>(world, 500.0f, 530.0f, 8.0f, 40.0f, "../assets/Ang_Birds/plank1.png"));  // pV1
+    vecPlank.push_back(std::make_shared<Plank>(world, 600.0f, 530.0f, 8.0f, 40.0f, "../assets/Ang_Birds/plank1.png"));  // pV2
+    vecPlank.push_back(std::make_shared<Plank>(world, 550.0f, 482.0f, 58.0f, 15.0f, "../assets/Ang_Birds/plank2.png")); // pH
+    vecPlank.push_back(std::make_shared<Plank>(world, 500.0f, 420.0f, 8.0f, 28.0f, "../assets/Ang_Birds/plank1.png")); // pTopV1
+    vecPlank.push_back(std::make_shared<Plank>(world, 600.0f, 420.0f, 8.0f, 28.0f, "../assets/Ang_Birds/plank1.png")); // pTopV2
+
+    for (int i = 0; i < vecPlank.size(); i++) {
+        vecPlank[i]->getBody()->GetUserData().pointer = 10 + i;
+    }
 
     // GROUND (Non-interactable)
     // WALL (Non-interactable)
@@ -110,9 +131,13 @@ int main() {
     
     Catapult catapult(world, 200.0f, 540.0f, 10.0f, 60.0f, "../assets/Ang_Birds/Slingshot.png");
 
+    UI ui("../assets/Ang_Birds/LoadingScreen.png", 0.0f, 0.0f);
+    ui.updatePigCount(vecPig.size());
+
     std::shared_ptr<Bird> lastLaunchedBird = nullptr;
+    bool gameOver = false;
     // --- 7. MAIN LOOP ---
-    while (window.isOpen()) {
+    while (window.isOpen() && !gameOver) {
         sf::Event event;
         while (window.pollEvent(event)) {
             if (event.type == sf::Event::Closed)
@@ -218,6 +243,7 @@ int main() {
                         (*itPig)->markForDeletion();
                         world.DestroyBody((*itPig)->getBody());
                         itPig = vecPig.erase(itPig);
+                        ui.updatePigCount(vecPig.size());
                         continue;
                     }
                 }
@@ -227,6 +253,19 @@ int main() {
                 ++itPig;
             }
         }
+
+        for (auto itPlank = vecPlank.begin(); itPlank != vecPlank.end(); ) {
+            uintptr_t currentPlankID = (*itPlank)->getBody()->GetUserData().pointer;
+            if (s_p.find(currentPlankID) != s_p.end()) {
+                std::cout << currentPlankID << " Plank Destroyed" << std::endl;
+                world.DestroyBody((*itPlank)->getBody());
+                itPlank = vecPlank.erase(itPlank);
+            }
+            else {
+                ++itPlank;
+            }
+        }
+
         for (auto itBird = birdType.begin(); itBird != birdType.end(); ) {
             if ((*itBird)->shouldDelete()) {
                 world.DestroyBody((*itBird)->getBody());
@@ -237,14 +276,18 @@ int main() {
             }
         }
 
+        if (vecPig.empty()) {
+            gameOver = true;
+        }
+
         //plank.update();
-        pV1.update();
-        pV2.update();
-        pH.update();
-        pTopV1.update();
-        pTopV2.update();
+       
 
         catapult.update();
+
+        for (auto itPlank = vecPlank.begin(); itPlank != vecPlank.end(); itPlank++) {
+            (*itPlank)->update();
+        }
 
         for (std::list<std::shared_ptr<Bird>>::iterator itBird = birdType.begin(); itBird != birdType.end(); itBird++) {
             (*itBird)->update();
@@ -261,11 +304,10 @@ int main() {
 
 
         //plank.render(window);
-        pV1.render(window);
-        pV2.render(window);
-        pH.render(window);
-        pTopV1.render(window);
-        pTopV2.render(window);
+     
+        for (auto itPlank = vecPlank.begin(); itPlank != vecPlank.end(); itPlank++) {
+            (*itPlank)->render(window);
+        }
 
         for (std::vector<std::shared_ptr<Non_Interactable>>::iterator itNonInteractable = vecNonInteractable.begin(); itNonInteractable != vecNonInteractable.end(); itNonInteractable++) {
             (*itNonInteractable)->render(window);
@@ -282,9 +324,27 @@ int main() {
 
         catapult.render(window);
 
-        window.display();
+        ui.renderHUD(window);
 
+        window.display();
     }
+
+    while (window.isOpen()) {
+        sf::Event event;
+        while (window.pollEvent(event)) {
+            if (event.type == sf::Event::Closed)
+                window.close();
+            if (event.type == sf::Event::KeyPressed) {
+                if (event.key.code == sf::Keyboard::Enter) {
+                    window.close();
+                }
+            }
+        }
+        window.clear(sf::Color(135, 206, 235));
+        ui.renderWin(window);
+        window.display();
+    }
+
 
     return 0;
 }
